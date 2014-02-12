@@ -10,6 +10,7 @@ namespace WorldOfTelerik
     {
         static void Main(string[] args)
         {
+			Console.WriteLine ("Hello");
         }
     }
 }

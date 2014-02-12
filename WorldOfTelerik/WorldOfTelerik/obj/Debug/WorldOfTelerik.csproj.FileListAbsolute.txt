@@ -1,1 +1,7 @@
 c:\users\pc\documents\visual studio 2013\Projects\WorldOfTelerik\WorldOfTelerik\bin\Debug\WorldOfTelerik.exe.config
+C:\Users\Dilyana\Documents\GitHub\Franz-Kafka\WorldOfTelerik\WorldOfTelerik\bin\Debug\WorldOfTelerik.exe.config
+C:\Users\Dilyana\Documents\GitHub\Franz-Kafka\WorldOfTelerik\WorldOfTelerik\bin\Debug\WorldOfTelerik.exe
+C:\Users\Dilyana\Documents\GitHub\Franz-Kafka\WorldOfTelerik\WorldOfTelerik\bin\Debug\WorldOfTelerik.pdb
+C:\Users\Dilyana\Documents\GitHub\Franz-Kafka\WorldOfTelerik\WorldOfTelerik\obj\Debug\WorldOfTelerik.csprojResolveAssemblyReference.cache
+C:\Users\Dilyana\Documents\GitHub\Franz-Kafka\WorldOfTelerik\WorldOfTelerik\obj\Debug\WorldOfTelerik.exe
+C:\Users\Dilyana\Documents\GitHub\Franz-Kafka\WorldOfTelerik\WorldOfTelerik\obj\Debug\WorldOfTelerik.pdb
