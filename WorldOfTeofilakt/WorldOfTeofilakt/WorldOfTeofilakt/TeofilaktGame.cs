@@ -10,6 +10,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using WorldOfTeofilakt.CharacterClasses;
 
+
 namespace WorldOfTeofilakt
 {
     /// <summary>
@@ -17,18 +18,25 @@ namespace WorldOfTeofilakt
     /// </summary>
     public class TeofilaktGame : Microsoft.Xna.Framework.Game
     {
+        //Hero statistics
         public static Hero player;
         public static bool genderOfPlayer;
+        public static int brainPower = 0;
+        public static int motivation = 0;
+        public static int patience = 0;
+        public static int workDedication = 0;
+        public static int playerTime = 100;
         
+        //XNA
         GraphicsDeviceManager graphics;
         public SpriteBatch spriteBatch;
-        
-        //MenuComponent menuComponent;
 
+        //Mouse
         public MouseState CurrentMouseState { get; set; }
         public MouseState PreviousMouseState { get; set; }
         public Point MousePosition { get; set; }
 
+        //Screen
         const int screenWidth = 1024;
         const int screenHeight = 680;
         public readonly Rectangle ScreenRectangle;
@@ -61,6 +69,7 @@ namespace WorldOfTeofilakt
             SCREEN_MANAGER.add_screen(new StartMenuScreen(GraphicsDevice,this));
             SCREEN_MANAGER.add_screen(new ChooseHeroScreen(GraphicsDevice, this));
             SCREEN_MANAGER.add_screen(new MapScreen(GraphicsDevice, this));
+            SCREEN_MANAGER.add_screen(new ShopScreen(GraphicsDevice, this));
 
             SCREEN_MANAGER.goto_screen("StartMenu");
 
@@ -74,12 +83,9 @@ namespace WorldOfTeofilakt
         /// </summary>
         protected override void LoadContent()
         {
-            //string[] menuItems = { "Start Game", "High Scores", "End Game" };
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-          //  menuComponent = new MenuComponent(this,spriteBatch,Content.Load<SpriteFont>("menufont"),menuItems);
-          //  Components.Add(menuComponent);
             SCREEN_MANAGER.Init();
 
             CurrentMouseState = Mouse.GetState();

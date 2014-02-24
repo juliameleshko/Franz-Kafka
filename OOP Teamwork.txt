@@ -1,0 +1,49 @@
+World of Telerik RPG
+
+2 types of heroes : 
+1. Ninja programmer
+2. Female Ninja
+
+Hero's equipment : 
+head - cpu
+chest - motherboard
+gloves - gpu
+boots - wifi connection speed
+shield - antivirus software
+
+
+Hero's attributes : 
+Damage
+Armor - Броня
+Life
+Mana - престиж
+Gold (Time)
+Experience (Knowledge)
+
+Hero's Enemies : 
+C#1 homework
+C#2 homework
+OOP homework
+Team projects
+
+
+Hero's Bosses at the end of each dungeon :
+Ivaylo Kenov
+Doncho
+Joro
+Niki
+BG Coder
+
+Dungeons :
+
+Light
+Light 2
+Enterprise
+Enterprise 2
+Ultimate
+
+
+
+
+
+

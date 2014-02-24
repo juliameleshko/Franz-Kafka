@@ -56,7 +56,6 @@ namespace WorldOfTeofilakt
                 character.Draw(Game.spriteBatch);
             }
 
-
             TeofilaktGame.player.Draw(Game.spriteBatch);
            // homeWork1.Draw(_game.spriteBatch);
 
@@ -86,6 +85,7 @@ namespace WorldOfTeofilakt
             {
 
                 SCREEN_MANAGER.goto_screen("StartMenu");
+   
             }
           
             KeyboardState KS = Keyboard.GetState();

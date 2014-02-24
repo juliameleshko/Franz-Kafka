@@ -43,6 +43,7 @@ namespace WorldOfTeofilakt
         {
             Device.Clear(Color.LightGreen);
 
+
             Game.spriteBatch.Begin();
 
             menuComponent.Draw(gameTime);

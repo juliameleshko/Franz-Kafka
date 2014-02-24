@@ -1,12 +1,4 @@
-﻿/************************************************************************/
-/* Author : David Amador 
- * Web:      http://www.david-amador.com
- * Twitter : http://www.twitter.com/DJ_Link                             
- * 
- * You can use this for whatever you want. If you want to give me some credit for it that's cool but not mandatory
-/************************************************************************/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

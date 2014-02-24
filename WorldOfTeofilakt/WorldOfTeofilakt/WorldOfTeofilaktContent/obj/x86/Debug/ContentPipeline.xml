@@ -2,22 +2,13 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>Controls\Pig.png</Source>
-      <Name>Controls\Pig</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Pig.xnb</Output>
-      <Time>2014-02-22T15:55:44.207625+02:00</Time>
-    </Item>
-    <Item>
       <Source>Fonts\menufont.spritefont</Source>
       <Name>Fonts\menufont</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\menufont.xnb</Output>
-      <Time>2014-02-22T23:26:48.238875+02:00</Time>
+      <Time>2014-02-24T18:25:33.53575+02:00</Time>
     </Item>
     <Item>
       <Source>Fonts\standart.spritefont</Source>
@@ -162,6 +153,51 @@
       <Options>None</Options>
       <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_boy_little.xnb</Output>
       <Time>2014-02-23T16:53:30.551375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Controls\BrainPower.png</Source>
+      <Name>Controls\BrainPower</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\BrainPower.xnb</Output>
+      <Time>2014-02-24T15:08:41.457625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Controls\Motivation.png</Source>
+      <Name>Controls\Motivation</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Motivation.xnb</Output>
+      <Time>2014-02-24T15:09:00.613875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Controls\Patience.png</Source>
+      <Name>Controls\Patience</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Patience.xnb</Output>
+      <Time>2014-02-24T15:09:50.317+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Controls\WorkDedication.png</Source>
+      <Name>Controls\WorkDedication</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\WorkDedication.xnb</Output>
+      <Time>2014-02-24T15:08:17.207625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Controls\GoodLuck.png</Source>
+      <Name>Controls\GoodLuck</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\GoodLuck.xnb</Output>
+      <Time>2014-02-24T18:38:40.942+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

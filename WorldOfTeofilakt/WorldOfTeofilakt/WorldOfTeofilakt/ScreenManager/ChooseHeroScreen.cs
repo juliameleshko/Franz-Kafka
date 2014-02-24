@@ -67,14 +67,14 @@ namespace WorldOfTeofilakt
                  && maleButton.SourceRectangle.Contains(Game.MousePosition))
             {
 
-                SCREEN_MANAGER.goto_screen("Map");
+                SCREEN_MANAGER.goto_screen("Shop");
                 TeofilaktGame.genderOfPlayer = true;
             }
             else if (Game.PreviousMouseState.LeftButton == ButtonState.Released
                  && Game.CurrentMouseState.LeftButton == ButtonState.Pressed
                  && femaleButton.SourceRectangle.Contains(Game.MousePosition))
             {
-                SCREEN_MANAGER.goto_screen("Map");
+                SCREEN_MANAGER.goto_screen("Shop");
                 TeofilaktGame.genderOfPlayer = false;
             }
 

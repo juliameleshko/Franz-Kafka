@@ -118,6 +118,7 @@
     <Compile Include="ScreenManager\MapScreen.cs" />
     <Compile Include="ScreenManager\Screen.cs" />
     <Compile Include="ScreenManager\ScreenManager.cs" />
+    <Compile Include="ScreenManager\ShopScreen.cs" />
     <Compile Include="ScreenManager\StartMenuScreen.cs" />
     <Compile Include="TeofilaktMain.cs" />
     <Compile Include="TeofilaktGame.cs" />

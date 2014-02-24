@@ -4,7 +4,6 @@ D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt
 D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\obj\x86\Debug\WorldOfTeofilakt.exe
 D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\obj\x86\Debug\WorldOfTeofilakt.pdb
-D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Pig.xnb
 D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\menufont.xnb
 D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\standart.xnb
 D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\logofont.xnb
@@ -22,3 +21,8 @@ D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt
 D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_girl_thumb.xnb
 D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_girl_little.xnb
 D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_boy_little.xnb
+D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\BrainPower.xnb
+D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Motivation.xnb
+D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Patience.xnb
+D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\WorkDedication.xnb
+D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\GoodLuck.xnb
