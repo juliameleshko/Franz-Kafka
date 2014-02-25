@@ -20,3 +20,5 @@ Content\Controls\Motivation.xnb
 Content\Controls\Patience.xnb
 Content\Controls\WorkDedication.xnb
 Content\Controls\GoodLuck.xnb
+Content\Backgrounds\mainmenu.xnb
+Content\Fonts\statfont.xnb

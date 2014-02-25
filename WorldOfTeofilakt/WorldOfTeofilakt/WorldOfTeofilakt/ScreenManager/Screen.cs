@@ -9,11 +9,12 @@ namespace WorldOfTeofilakt
 {
     public class Screen
     {
-        public const string Logo = "WORLD OF TEOFILAKT";
+        //public const string Logo = "WORLD OF TEOFILAKT";
 
         private SpriteFont logoFont;
         private SpriteFont menuFont;
-        
+        private SpriteFont statFont;
+
         /// <summary>
         /// Screen Constructor
         /// </summary>
@@ -44,7 +45,12 @@ namespace WorldOfTeofilakt
             get { return logoFont; }
             private set { logoFont = value; }
         }
-        
+
+        protected SpriteFont StatFont
+        {
+            get { return statFont; }
+            private set { statFont = value; }
+        }
 
         /// <summary>
         /// Virtual Function that's called when entering a Screen
@@ -55,6 +61,7 @@ namespace WorldOfTeofilakt
         {
             LogoFont = Game.Content.Load<SpriteFont>(@"Fonts\logofont");
             MenuFont = Game.Content.Load<SpriteFont>(@"Fonts\menufont");
+            StatFont = Game.Content.Load<SpriteFont>(@"Fonts\statfont");
             return true;
         }
 

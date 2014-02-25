@@ -8,8 +8,9 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
-using WorldOfTeofilakt.CharacterClasses;
 
+using WorldOfTeofilakt.CharacterClasses;
+using WorldOfTeofilakt.Items;
 
 namespace WorldOfTeofilakt
 {
@@ -18,14 +19,8 @@ namespace WorldOfTeofilakt
     /// </summary>
     public class TeofilaktGame : Microsoft.Xna.Framework.Game
     {
-        //Hero statistics
+        //Hero
         public static Hero player;
-        public static bool genderOfPlayer;
-        public static int brainPower = 0;
-        public static int motivation = 0;
-        public static int patience = 0;
-        public static int workDedication = 0;
-        public static int playerTime = 100;
         
         //XNA
         GraphicsDeviceManager graphics;
@@ -64,14 +59,20 @@ namespace WorldOfTeofilakt
         /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
             
+            //Initiate player
+            player = new Hero("Hero", Content.Load<Texture2D>(@"Characters\ninja_boy_little"),
+                                  new Vector2(Window.ClientBounds.Width / 2,Window.ClientBounds.Height / 2), true, 100);
+            
+
+            //Initiate screns
             SCREEN_MANAGER.add_screen(new StartMenuScreen(GraphicsDevice,this));
             SCREEN_MANAGER.add_screen(new ChooseHeroScreen(GraphicsDevice, this));
             SCREEN_MANAGER.add_screen(new MapScreen(GraphicsDevice, this));
             SCREEN_MANAGER.add_screen(new ShopScreen(GraphicsDevice, this));
 
             SCREEN_MANAGER.goto_screen("StartMenu");
+           // SCREEN_MANAGER.goto_screen("Map");
 
 
             base.Initialize();

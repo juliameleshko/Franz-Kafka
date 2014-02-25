@@ -15,8 +15,7 @@ namespace WorldOfTeofilakt.CharacterClasses
     public abstract class Character
     {
         //Fields
-        private Rectangle characterBounds;
-        
+       // private Rectangle characterBounds;
 
        //Constructors
         public Character(string name, Texture2D image, Vector2 position)
@@ -51,7 +50,6 @@ namespace WorldOfTeofilakt.CharacterClasses
         {
             spriteBatch.Draw(this.Image, this.Position, this.Color);
         }
-
-
+    
     }
 }

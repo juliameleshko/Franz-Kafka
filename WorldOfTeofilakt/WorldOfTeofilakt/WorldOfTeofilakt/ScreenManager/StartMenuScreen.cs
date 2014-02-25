@@ -15,8 +15,9 @@ namespace WorldOfTeofilakt
        
         //Fields
         private MenuComponent menuComponent;
-        private Vector2 logoPosition = new Vector2(150f, 100f);
-        private Color logoColor = Color.Yellow;
+       // private Vector2 logoPosition = new Vector2(150f, 100f);
+      //  private Color logoColor = Color.Yellow;
+        private Texture2D backgroundImage;
 
         //Constructors
         public StartMenuScreen(GraphicsDevice device, TeofilaktGame game)
@@ -26,12 +27,15 @@ namespace WorldOfTeofilakt
 
         public override bool Init()
         {
+            backgroundImage = Game.Content.Load<Texture2D>(@"Backgrounds\mainmenu");
+
             //Start menu
-            string[] menuItems = { "Start Game", "End Game" };
+            string[] menuItems = { "Start Game", "Exit Game" };
             menuComponent = new MenuComponent(Game, Game.spriteBatch, Game.Content.Load<SpriteFont>(@"Fonts\menufont"), menuItems);
             Game.Components.Add(menuComponent);
-         
+
             return base.Init();
+            
         }
 
         public override void Shutdown()
@@ -43,11 +47,14 @@ namespace WorldOfTeofilakt
         {
             Device.Clear(Color.LightGreen);
 
-
             Game.spriteBatch.Begin();
 
+            Game.spriteBatch.Draw(backgroundImage, Game.ScreenRectangle, Color.White);
             menuComponent.Draw(gameTime);
-            Game.spriteBatch.DrawString(LogoFont, Logo, logoPosition, logoColor);
+
+           // Game.spriteBatch.DrawString(LogoFont, Logo, logoPosition, logoColor);
+
+            
 
             base.Draw(gameTime);
 

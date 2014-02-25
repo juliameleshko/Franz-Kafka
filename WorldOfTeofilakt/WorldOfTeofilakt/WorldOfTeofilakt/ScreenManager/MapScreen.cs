@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
 using WorldOfTeofilakt.CharacterClasses;
+using WorldOfTeofilakt.Items;
 
 namespace WorldOfTeofilakt
 {
@@ -23,12 +24,12 @@ namespace WorldOfTeofilakt
         public override bool Init()
         {
             
-            TeofilaktGame.player = new Hero("Hero", Game.Content.Load<Texture2D>(@"Characters\ninja_boy_little"),
-                              new Vector2(Game.Window.ClientBounds.Width / 2, Game.Window.ClientBounds.Height / 2), TeofilaktGame.genderOfPlayer);
+            //TeofilaktGame.player = new Hero("Hero", Game.Content.Load<Texture2D>(@"Characters\ninja_boy_little"),
+            //                  new Vector2(Game.Window.ClientBounds.Width / 2, Game.Window.ClientBounds.Height / 2), TeofilaktGame.genderOfPlayer);
             
            
 
-            Enemy homeWork1 = new Enemy(null, Game.Content.Load<Texture2D>(@"Characters\home_work"), new Vector2(30f, 20f));
+            Enemy homeWork1 = new Enemy(null, Game.Content.Load<Texture2D>(@"Characters\home_work"), new Vector2(30f, 400f));
             Enemy homeWork2 = new Enemy(null, Game.Content.Load<Texture2D>(@"Characters\boss"), new Vector2(300f, 400f));
             Enemy homeWork3 = new Enemy(null, Game.Content.Load<Texture2D>(@"Characters\armor_little"), new Vector2(10f, 300f));
             
@@ -36,6 +37,9 @@ namespace WorldOfTeofilakt
             characters.Add(homeWork2);
             characters.Add(homeWork3);
 
+            
+           // TeofilaktGame.player.HeroKnowledges.Add(Knowledges.IKhowArrays, 1);
+          //  TeofilaktGame.player.HeroKnowledges.Add(Knowledges.IKnowLoops, 1);
 
             return base.Init();
         }
@@ -56,6 +60,9 @@ namespace WorldOfTeofilakt
                 character.Draw(Game.spriteBatch);
             }
 
+
+            TeofilaktGame.player.DrawStats(Game.spriteBatch, StatFont, new Vector2(5, 0), Color.White);
+
             TeofilaktGame.player.Draw(Game.spriteBatch);
            // homeWork1.Draw(_game.spriteBatch);
 
@@ -69,7 +76,7 @@ namespace WorldOfTeofilakt
         {
 
             //Set image of player depending on gender
-            if (TeofilaktGame.genderOfPlayer)
+            if (TeofilaktGame.player.IsMale)
             {
                 TeofilaktGame.player.Image = Game.Content.Load<Texture2D>(@"Characters\ninja_boy_little");
 

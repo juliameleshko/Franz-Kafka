@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework.Input;
 
 using WorldOfTeofilakt.CharacterClasses;
 using WorldOfTeofilakt.Controls;
+using WorldOfTeofilakt.Items;
 
 namespace WorldOfTeofilakt
 {
@@ -59,19 +60,19 @@ namespace WorldOfTeofilakt
             Game.spriteBatch.Begin();
 
             //Draw buttons and title
-            Game.spriteBatch.DrawString(MenuFont, titleText + TeofilaktGame.playerTime.ToString(), titleTextPosition, titleTextColor);
+            Game.spriteBatch.DrawString(MenuFont, titleText + TeofilaktGame.player.PreciousTime.ToString(), titleTextPosition, titleTextColor);
            
             Game.spriteBatch.Draw(brainPowerButton.Image, brainPowerButton.Position, Color.White);
-            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.brainPower.ToString(), new Vector2(brainPowerButton.Position.X + brainPowerButton.Image.Width + 40, brainPowerButton.Position.Y), Color.White);
-
+            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.player.HeroAbilities[Abilities.BrainPower].ToString(), new Vector2(brainPowerButton.Position.X + brainPowerButton.Image.Width + 40, brainPowerButton.Position.Y), Color.White);
+            
             Game.spriteBatch.Draw(motivationButton.Image, motivationButton.Position, Color.White);
-            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.motivation.ToString(), new Vector2(motivationButton.Position.X + motivationButton.Image.Width + 40, motivationButton.Position.Y), Color.White);
+            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.player.HeroAbilities[Abilities.Motivation].ToString(), new Vector2(motivationButton.Position.X + motivationButton.Image.Width + 40, motivationButton.Position.Y), Color.White);
 
             Game.spriteBatch.Draw(patienceButton.Image, patienceButton.Position, Color.White);
-            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.patience.ToString(), new Vector2(patienceButton.Position.X + patienceButton.Image.Width + 40, patienceButton.Position.Y), Color.White);
+            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.player.HeroAbilities[Abilities.Patience].ToString(), new Vector2(patienceButton.Position.X + patienceButton.Image.Width + 40, patienceButton.Position.Y), Color.White);
 
             Game.spriteBatch.Draw(workDedicationButton.Image, workDedicationButton.Position, Color.White);
-            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.workDedication.ToString(), new Vector2(workDedicationButton.Position.X + workDedicationButton.Image.Width + 40, workDedicationButton.Position.Y), Color.White);
+            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.player.HeroAbilities[Abilities.WorkDedication].ToString(), new Vector2(workDedicationButton.Position.X + workDedicationButton.Image.Width + 40, workDedicationButton.Position.Y), Color.White);
 
             Game.spriteBatch.Draw(goodLuckButton.Image, goodLuckButton.Position, Color.White);
 
@@ -89,20 +90,20 @@ namespace WorldOfTeofilakt
                  && Game.CurrentMouseState.LeftButton == ButtonState.Pressed
                  && brainPowerButton.SourceRectangle.Contains(Game.MousePosition))
             {
-                if (TeofilaktGame.playerTime > 0)
+                if (TeofilaktGame.player.PreciousTime > 0)
                 {
-                    TeofilaktGame.brainPower++;
-                    TeofilaktGame.playerTime--;
+                    TeofilaktGame.player.HeroAbilities[Abilities.BrainPower]++;
+                    TeofilaktGame.player.PreciousTime--;
                 }
             }
             else if (Game.PreviousMouseState.RightButton == ButtonState.Released
                  && Game.CurrentMouseState.RightButton == ButtonState.Pressed
                  && brainPowerButton.SourceRectangle.Contains(Game.MousePosition))
             {
-                if (TeofilaktGame.brainPower > 0)
+                if (TeofilaktGame.player.HeroAbilities[Abilities.BrainPower] > 0)
                 {
-                    TeofilaktGame.brainPower--;
-                    TeofilaktGame.playerTime++;
+                    TeofilaktGame.player.HeroAbilities[Abilities.BrainPower]--;
+                    TeofilaktGame.player.PreciousTime++;
                 }
 
             }
@@ -111,10 +112,10 @@ namespace WorldOfTeofilakt
                  && Game.CurrentMouseState.LeftButton == ButtonState.Pressed
                  && motivationButton.SourceRectangle.Contains(Game.MousePosition))
             {
-                if (TeofilaktGame.playerTime > 0)
+                if (TeofilaktGame.player.PreciousTime > 0)
                 {
-                    TeofilaktGame.motivation++;
-                    TeofilaktGame.playerTime--;
+                    TeofilaktGame.player.HeroAbilities[Abilities.Motivation]++;
+                    TeofilaktGame.player.PreciousTime--;
                 }
             }
 
@@ -122,10 +123,10 @@ namespace WorldOfTeofilakt
                  && Game.CurrentMouseState.RightButton == ButtonState.Pressed
                  && motivationButton.SourceRectangle.Contains(Game.MousePosition))
             {
-                if (TeofilaktGame.motivation > 0)
+                if (TeofilaktGame.player.HeroAbilities[Abilities.Motivation] > 0)
                 {
-                    TeofilaktGame.motivation--;
-                    TeofilaktGame.playerTime++;
+                    TeofilaktGame.player.HeroAbilities[Abilities.Motivation]--;
+                    TeofilaktGame.player.PreciousTime++;
                 }
             }
 
@@ -134,20 +135,20 @@ namespace WorldOfTeofilakt
                  && Game.CurrentMouseState.LeftButton == ButtonState.Pressed
                  && patienceButton.SourceRectangle.Contains(Game.MousePosition))
             {
-                if (TeofilaktGame.playerTime > 0)
+                if (TeofilaktGame.player.PreciousTime > 0)
                 {
-                    TeofilaktGame.patience++;
-                    TeofilaktGame.playerTime--;
+                    TeofilaktGame.player.HeroAbilities[Abilities.Patience]++;
+                    TeofilaktGame.player.PreciousTime--;
                 }
             }
             else if (Game.PreviousMouseState.RightButton == ButtonState.Released
                  && Game.CurrentMouseState.RightButton == ButtonState.Pressed
                  && patienceButton.SourceRectangle.Contains(Game.MousePosition))
             {
-                if (TeofilaktGame.patience > 0)
+                if (TeofilaktGame.player.HeroAbilities[Abilities.Patience] > 0)
                 {
-                    TeofilaktGame.patience--;
-                    TeofilaktGame.playerTime++;
+                    TeofilaktGame.player.HeroAbilities[Abilities.Patience]--;
+                    TeofilaktGame.player.PreciousTime++;
                 }
             }
             //workDedication
@@ -155,20 +156,20 @@ namespace WorldOfTeofilakt
                  && Game.CurrentMouseState.LeftButton == ButtonState.Pressed
                  && workDedicationButton.SourceRectangle.Contains(Game.MousePosition))
             {
-                if (TeofilaktGame.playerTime > 0)
+                if (TeofilaktGame.player.PreciousTime > 0)
                 {
-                    TeofilaktGame.workDedication++;
-                    TeofilaktGame.playerTime--;
+                    TeofilaktGame.player.HeroAbilities[Abilities.WorkDedication]++;
+                    TeofilaktGame.player.PreciousTime--;
                 }
             }
             else if (Game.PreviousMouseState.RightButton == ButtonState.Released
                  && Game.CurrentMouseState.RightButton == ButtonState.Pressed
                  && workDedicationButton.SourceRectangle.Contains(Game.MousePosition))
             {
-                if (TeofilaktGame.workDedication > 0)
+                if (TeofilaktGame.player.HeroAbilities[Abilities.WorkDedication] > 0)
                 {
-                    TeofilaktGame.workDedication--;
-                    TeofilaktGame.playerTime++;
+                    TeofilaktGame.player.HeroAbilities[Abilities.WorkDedication]--;
+                    TeofilaktGame.player.PreciousTime++;
                 }
             }
             else if (Game.PreviousMouseState.LeftButton == ButtonState.Released
