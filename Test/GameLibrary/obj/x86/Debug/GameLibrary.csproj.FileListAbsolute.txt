@@ -1,0 +1,6 @@
+c:\Users\Ivaylo\documents\visual studio 2013\Projects\Test\GameLibrary\bin\x86\Debug\GameLibrary.dll
+c:\Users\Ivaylo\documents\visual studio 2013\Projects\Test\GameLibrary\bin\x86\Debug\GameLibrary.pdb
+c:\Users\Ivaylo\documents\visual studio 2013\Projects\Test\GameLibrary\obj\x86\Debug\GameLibrary.csprojResolveAssemblyReference.cache
+c:\Users\Ivaylo\documents\visual studio 2013\Projects\Test\GameLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\Users\Ivaylo\documents\visual studio 2013\Projects\Test\GameLibrary\obj\x86\Debug\GameLibrary.dll
+c:\Users\Ivaylo\documents\visual studio 2013\Projects\Test\GameLibrary\obj\x86\Debug\GameLibrary.pdb
