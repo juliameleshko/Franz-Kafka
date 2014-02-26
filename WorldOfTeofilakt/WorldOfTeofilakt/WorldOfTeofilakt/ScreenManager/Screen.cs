@@ -14,6 +14,7 @@ namespace WorldOfTeofilakt
         private SpriteFont logoFont;
         private SpriteFont menuFont;
         private SpriteFont statFont;
+        private SpriteFont standartFont;
 
         /// <summary>
         /// Screen Constructor
@@ -52,6 +53,12 @@ namespace WorldOfTeofilakt
             private set { statFont = value; }
         }
 
+        protected SpriteFont StandartFont
+        {
+            get { return standartFont; }
+            private set { standartFont = value; }
+        }
+
         /// <summary>
         /// Virtual Function that's called when entering a Screen
         /// override it and add your own initialization code
@@ -62,6 +69,7 @@ namespace WorldOfTeofilakt
             LogoFont = Game.Content.Load<SpriteFont>(@"Fonts\logofont");
             MenuFont = Game.Content.Load<SpriteFont>(@"Fonts\menufont");
             StatFont = Game.Content.Load<SpriteFont>(@"Fonts\statfont");
+            StandartFont = Game.Content.Load<SpriteFont>(@"Fonts\standart");
             return true;
         }
 

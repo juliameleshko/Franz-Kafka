@@ -36,9 +36,9 @@ namespace WorldOfTeofilakt
         {
             backgroundImage = Game.Content.Load<Texture2D>(@"Backgrounds\duelscreen");
 
-            Vector2 yesButtonPos = new Vector2(400f, 200f);
+            Vector2 yesButtonPos = new Vector2(350f, 400f);
             yesButton = new PictureBox(Game.Content.Load<Texture2D>(@"Controls\Yes"), yesButtonPos);
-            Vector2 noButtonPos = new Vector2(600f, 200f);
+            Vector2 noButtonPos = new Vector2(550f, 400f);
             noButton = new PictureBox(Game.Content.Load<Texture2D>(@"Controls\No"), noButtonPos);
 
             return base.Init();
@@ -59,9 +59,9 @@ namespace WorldOfTeofilakt
 
             //Draw
             TeofilaktGame.player.DrawStats(Game.spriteBatch, StatFont, new Vector2(5, 0), Color.White);
-            TeofilaktGame.homeWorkInDuel.DrawStats(Game.spriteBatch, StatFont, new Vector2(400, 0), Color.White);
-            Game.spriteBatch.Draw(yesButton.Image, yesButton.Position, Color.White);
-            Game.spriteBatch.Draw(noButton.Image, noButton.Position, Color.White);
+            TeofilaktGame.homeWorkInDuel.DrawStats(Game.spriteBatch, StandartFont, new Vector2(380, 150), Color.DarkTurquoise);
+            Game.spriteBatch.Draw(yesButton.Image, yesButton.Position, Color.DarkTurquoise);
+            Game.spriteBatch.Draw(noButton.Image, noButton.Position, Color.DarkTurquoise);
 
             base.Draw(gameTime);
 

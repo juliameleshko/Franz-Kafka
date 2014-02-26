@@ -62,7 +62,7 @@ namespace WorldOfTeofilakt.CharacterClasses
             foreach (var ability in this.MustAbilities)
             {
                 spriteBatch.DrawString(font, ability.Key.ToString() + ": ", position, color);
-                spriteBatch.DrawString(font, ability.Value.ToString(), new Vector2(position.X + 130, position.Y), color);
+                spriteBatch.DrawString(font, ability.Value.ToString(), new Vector2(position.X + 170, position.Y), color);
                 position.Y += font.LineSpacing;
             }
 
