@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\menufont.xnb</Output>
-      <Time>2014-02-24T18:25:33.53575+02:00</Time>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\menufont.xnb</Output>
+      <Time>2014-02-26T20:58:13.625+02:00</Time>
     </Item>
     <Item>
       <Source>Fonts\standart.spritefont</Source>
@@ -16,8 +16,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\standart.xnb</Output>
-      <Time>2014-02-17T22:25:16.4645+02:00</Time>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\standart.xnb</Output>
+      <Time>2014-02-26T20:58:13.640625+02:00</Time>
     </Item>
     <Item>
       <Source>Fonts\logofont.spritefont</Source>
@@ -25,188 +25,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\logofont.xnb</Output>
-      <Time>2014-02-23T15:42:21.645125+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\ninja.jpg</Source>
-      <Name>Characters\ninja</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja.xnb</Output>
-      <Time>2014-02-17T22:51:58.152+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\ninja2.jpg</Source>
-      <Name>Characters\ninja2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja2.xnb</Output>
-      <Time>2014-02-23T13:06:33.8795+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\ninja_female.jpg</Source>
-      <Name>Characters\ninja_female</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_female.xnb</Output>
-      <Time>2014-02-23T13:13:23.582625+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\ninja_female_llitle.png</Source>
-      <Name>Characters\ninja_female_llitle</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_female_llitle.xnb</Output>
-      <Time>2014-02-23T14:35:43.6295+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\ninja_male_llitle.png</Source>
-      <Name>Characters\ninja_male_llitle</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_male_llitle.xnb</Output>
-      <Time>2014-02-23T14:45:15.47325+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\home_work.png</Source>
-      <Name>Characters\home_work</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\home_work.xnb</Output>
-      <Time>2014-02-23T14:58:29.082625+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\boss.png</Source>
-      <Name>Characters\boss</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\boss.xnb</Output>
-      <Time>2014-02-23T15:27:11.363875+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\cartoon-ninja.jpg</Source>
-      <Name>Characters\cartoon-ninja</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\cartoon-ninja.xnb</Output>
-      <Time>2014-02-23T15:16:20.03575+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\home_work_little.png</Source>
-      <Name>Characters\home_work_little</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\home_work_little.xnb</Output>
-      <Time>2014-02-23T16:06:17.72325+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\armor.png</Source>
-      <Name>Characters\armor</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\armor.xnb</Output>
-      <Time>2014-02-23T16:20:42.09825+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\armor_little.png</Source>
-      <Name>Characters\armor_little</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\armor_little.xnb</Output>
-      <Time>2014-02-23T16:25:25.8795+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\ninja_girl_thumb.png</Source>
-      <Name>Characters\ninja_girl_thumb</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_girl_thumb.xnb</Output>
-      <Time>2014-02-23T16:39:25.926375+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\ninja_girl_little.png</Source>
-      <Name>Characters\ninja_girl_little</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_girl_little.xnb</Output>
-      <Time>2014-02-23T16:44:56.863875+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\ninja_boy_little.png</Source>
-      <Name>Characters\ninja_boy_little</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_boy_little.xnb</Output>
-      <Time>2014-02-23T16:53:30.551375+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Controls\BrainPower.png</Source>
-      <Name>Controls\BrainPower</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\BrainPower.xnb</Output>
-      <Time>2014-02-24T15:08:41.457625+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Controls\Motivation.png</Source>
-      <Name>Controls\Motivation</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Motivation.xnb</Output>
-      <Time>2014-02-24T15:09:00.613875+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Controls\Patience.png</Source>
-      <Name>Controls\Patience</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Patience.xnb</Output>
-      <Time>2014-02-24T15:09:50.317+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Controls\WorkDedication.png</Source>
-      <Name>Controls\WorkDedication</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\WorkDedication.xnb</Output>
-      <Time>2014-02-24T15:08:17.207625+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Controls\GoodLuck.png</Source>
-      <Name>Controls\GoodLuck</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\GoodLuck.xnb</Output>
-      <Time>2014-02-24T18:38:40.942+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Backgrounds\mainmenu.png</Source>
-      <Name>Backgrounds\mainmenu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\mainmenu.xnb</Output>
-      <Time>2014-02-25T13:04:05.317+02:00</Time>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\logofont.xnb</Output>
+      <Time>2014-02-26T20:58:13.609375+02:00</Time>
     </Item>
     <Item>
       <Source>Fonts\statfont.spritefont</Source>
@@ -214,8 +34,188 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\statfont.xnb</Output>
-      <Time>2014-02-25T16:28:51.426375+02:00</Time>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\statfont.xnb</Output>
+      <Time>2014-02-26T20:58:13.65625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\ninja.jpg</Source>
+      <Name>Characters\ninja</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja.xnb</Output>
+      <Time>2014-02-26T20:58:13.0625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\ninja2.jpg</Source>
+      <Name>Characters\ninja2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja2.xnb</Output>
+      <Time>2014-02-26T20:58:13.0625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\ninja_female.jpg</Source>
+      <Name>Characters\ninja_female</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_female.xnb</Output>
+      <Time>2014-02-26T20:58:13.078125+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\ninja_female_llitle.png</Source>
+      <Name>Characters\ninja_female_llitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_female_llitle.xnb</Output>
+      <Time>2014-02-26T20:58:13.09375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\ninja_male_llitle.png</Source>
+      <Name>Characters\ninja_male_llitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_male_llitle.xnb</Output>
+      <Time>2014-02-26T20:58:13.15625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\home_work.png</Source>
+      <Name>Characters\home_work</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\home_work.xnb</Output>
+      <Time>2014-02-26T20:58:12.625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\boss.png</Source>
+      <Name>Characters\boss</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\boss.xnb</Output>
+      <Time>2014-02-26T20:58:12.609375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\cartoon-ninja.jpg</Source>
+      <Name>Characters\cartoon-ninja</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\cartoon-ninja.xnb</Output>
+      <Time>2014-02-26T20:58:12.609375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\home_work_little.png</Source>
+      <Name>Characters\home_work_little</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\home_work_little.xnb</Output>
+      <Time>2014-02-26T20:58:12.625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\armor.png</Source>
+      <Name>Characters\armor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\armor.xnb</Output>
+      <Time>2014-02-26T20:58:12.59375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\armor_little.png</Source>
+      <Name>Characters\armor_little</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\armor_little.xnb</Output>
+      <Time>2014-02-26T20:58:12.59375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\ninja_girl_thumb.png</Source>
+      <Name>Characters\ninja_girl_thumb</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_girl_thumb.xnb</Output>
+      <Time>2014-02-26T20:58:13.109375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\ninja_girl_little.png</Source>
+      <Name>Characters\ninja_girl_little</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_girl_little.xnb</Output>
+      <Time>2014-02-26T20:58:13.109375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\ninja_boy_little.png</Source>
+      <Name>Characters\ninja_boy_little</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_boy_little.xnb</Output>
+      <Time>2014-02-26T20:58:13.078125+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Controls\BrainPower.png</Source>
+      <Name>Controls\BrainPower</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\BrainPower.xnb</Output>
+      <Time>2014-02-26T20:58:13.171875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Controls\Motivation.png</Source>
+      <Name>Controls\Motivation</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Motivation.xnb</Output>
+      <Time>2014-02-26T20:58:13.234375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Controls\Patience.png</Source>
+      <Name>Controls\Patience</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Patience.xnb</Output>
+      <Time>2014-02-26T20:58:13.4375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Controls\WorkDedication.png</Source>
+      <Name>Controls\WorkDedication</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\WorkDedication.xnb</Output>
+      <Time>2014-02-26T20:58:13.546875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Controls\GoodLuck.png</Source>
+      <Name>Controls\GoodLuck</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\GoodLuck.xnb</Output>
+      <Time>2014-02-26T20:58:13.21875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\mainmenu.png</Source>
+      <Name>Backgrounds\mainmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\mainmenu.xnb</Output>
+      <Time>2014-02-26T20:58:10.765625+02:00</Time>
     </Item>
     <Item>
       <Source>Controls\Yes.png</Source>
@@ -223,8 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Yes.xnb</Output>
-      <Time>2014-02-26T01:32:56.4612457+02:00</Time>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Yes.xnb</Output>
+      <Time>2014-02-26T20:58:13.578125+02:00</Time>
     </Item>
     <Item>
       <Source>Controls\No.png</Source>
@@ -232,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\No.xnb</Output>
-      <Time>2014-02-26T01:55:43.3930413+02:00</Time>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\No.xnb</Output>
+      <Time>2014-02-26T20:58:13.25+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\BGcoder.png</Source>
@@ -241,8 +241,98 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\BGcoder.xnb</Output>
-      <Time>2014-02-26T14:00:54.629375+02:00</Time>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\BGcoder.xnb</Output>
+      <Time>2014-02-26T20:58:12.59375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\shop.png</Source>
+      <Name>Backgrounds\shop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\shop.xnb</Output>
+      <Time>2014-02-26T20:58:12.578125+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\gamebackground.png</Source>
+      <Name>Backgrounds\gamebackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\gamebackground.xnb</Output>
+      <Time>2014-02-26T20:58:10.03125+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\homework1.png</Source>
+      <Name>Characters\homework1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework1.xnb</Output>
+      <Time>2014-02-26T20:58:12.640625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\homework2.png</Source>
+      <Name>Characters\homework2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework2.xnb</Output>
+      <Time>2014-02-26T20:58:12.65625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\homework3.png</Source>
+      <Name>Characters\homework3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework3.xnb</Output>
+      <Time>2014-02-26T20:58:12.65625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\homework4.png</Source>
+      <Name>Characters\homework4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework4.xnb</Output>
+      <Time>2014-02-26T20:58:12.796875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\homework5.png</Source>
+      <Name>Characters\homework5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework5.xnb</Output>
+      <Time>2014-02-26T20:58:12.921875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\homework6.png</Source>
+      <Name>Characters\homework6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework6.xnb</Output>
+      <Time>2014-02-26T20:58:13.046875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\duelscreen.png</Source>
+      <Name>Backgrounds\duelscreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\duelscreen.xnb</Output>
+      <Time>2014-02-26T20:58:09.125+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\finalduelscreen.png</Source>
+      <Name>Backgrounds\finalduelscreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\finalduelscreen.xnb</Output>
+      <Time>2014-02-26T20:58:09.453125+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -250,10 +340,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilaktContent\</RootDirectory>
-      <LoggerRootDirectory>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilaktContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilaktContent\</RootDirectory>
+      <LoggerRootDirectory>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilaktContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
