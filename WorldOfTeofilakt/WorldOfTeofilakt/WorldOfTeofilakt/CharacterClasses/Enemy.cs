@@ -15,7 +15,6 @@ namespace WorldOfTeofilakt.CharacterClasses
     public class Enemy : Character
     {
         
-        
         public Enemy(string name, Texture2D image, Vector2 position)
             :base(name, image, position)
         {

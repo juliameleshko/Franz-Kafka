@@ -107,6 +107,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CharacterClasses\Boss.cs" />
     <Compile Include="CharacterClasses\Character.cs" />
     <Compile Include="CharacterClasses\Enemy.cs" />
     <Compile Include="CharacterClasses\Hero.cs" />
@@ -122,6 +123,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScreenManager\DuelScreen.cs" />
     <Compile Include="ScreenManager\ChooseHeroScreen.cs" />
+    <Compile Include="ScreenManager\FinalDuelScreen.cs" />
     <Compile Include="ScreenManager\MapScreen.cs" />
     <Compile Include="ScreenManager\Screen.cs" />
     <Compile Include="ScreenManager\ScreenManager.cs" />

@@ -45,9 +45,7 @@ namespace WorldOfTeofilakt
                 
             }
 
-
             TeofilaktGame.player.DrawStats(Game.spriteBatch, StatFont, new Vector2(5, 0), Color.White);
-
             TeofilaktGame.player.Draw(Game.spriteBatch);
 
 
@@ -81,14 +79,30 @@ namespace WorldOfTeofilakt
               
                 if (character is Enemy && check && character.IsActive)
                 {
-                    SCREEN_MANAGER.goto_screen("Duel");
-                    TeofilaktGame.homeWorkInDuel = (HomeWork)character;
+                    
+                    if (character is HomeWork)
+                    {
+                        TeofilaktGame.homeWorkInDuel = (HomeWork)character;
+                        SCREEN_MANAGER.goto_screen("Duel");
+                    }
+                    else if (character is Boss)
+                    {
+                        SCREEN_MANAGER.goto_screen("FinalDuel");
+                    }
+                                    
                     
                     TeofilaktGame.player.Position = new Vector2(5, 300);
                     break;
                 }
             }
 
+            if (Game.PreviousMouseState.LeftButton == ButtonState.Released
+                  && Game.CurrentMouseState.LeftButton == ButtonState.Pressed
+                 )
+            {
+                SCREEN_MANAGER.goto_screen("Shop");
+
+            }
             base.Update(gameTime);
         }
     }

@@ -65,25 +65,25 @@ namespace WorldOfTeofilakt
         public override void Update(GameTime gameTime)
         {
 
+            //Login when press Yes button
             if (Game.PreviousMouseState.LeftButton == ButtonState.Released
                  && Game.CurrentMouseState.LeftButton == ButtonState.Pressed
                  && yesButton.SourceRectangle.Contains(Game.MousePosition))
             {
-                SCREEN_MANAGER.goto_screen("Map");
-                TeofilaktGame.player.HeroKnowledges.Add(TeofilaktGame.homeWorkInDuel.WonKnowledge, 1);
-                TeofilaktGame.player.PreciousTime -= TeofilaktGame.homeWorkInDuel.TakenTime;
 
-                TeofilaktGame.homeWorkInDuel.IsActive = false;
-              //  TeofilaktGame.nonActiveCharacters.Add(TeofilaktGame.homeWorkInDuel);
+                TeofilaktGame.player.DuelWithHomeWork(TeofilaktGame.homeWorkInDuel);
+
+                SCREEN_MANAGER.goto_screen("Map");
             }
+             //Logic button NO
             else if (Game.PreviousMouseState.LeftButton == ButtonState.Released
                  && Game.CurrentMouseState.LeftButton == ButtonState.Pressed
                  && noButton.SourceRectangle.Contains(Game.MousePosition))
             {
-                
+
                 SCREEN_MANAGER.goto_screen("Map");
-                
-            }    
+
+            }
 
 
 

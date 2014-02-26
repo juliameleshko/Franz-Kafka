@@ -235,6 +235,15 @@
       <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\No.xnb</Output>
       <Time>2014-02-26T01:55:43.3930413+02:00</Time>
     </Item>
+    <Item>
+      <Source>Characters\BGcoder.png</Source>
+      <Name>Characters\BGcoder</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\BGcoder.xnb</Output>
+      <Time>2014-02-26T14:00:54.629375+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

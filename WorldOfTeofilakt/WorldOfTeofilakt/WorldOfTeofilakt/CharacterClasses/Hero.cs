@@ -163,10 +163,72 @@ namespace WorldOfTeofilakt.CharacterClasses
             {
                 spriteBatch.DrawString(font, "You have not yet!", position, color);
             }
-            
-
         }
 
+        public void DuelWithHomeWork(HomeWork homework)
+        {
+            uint takenTimeWithoutKnoledge = 20;
+            
+            int diffTime = (int)(this.PreciousTime - homework.TakenTime);
+
+            int diffBrainPower = (int)(this.HeroAbilities[Abilities.BrainPower]
+                            - homework.MustAbilities[Abilities.BrainPower]);
+
+            int diffMotivation = (int)(this.HeroAbilities[Abilities.Motivation]
+                           - homework.MustAbilities[Abilities.Motivation]);
+
+            int diffPatience = (int)(this.HeroAbilities[Abilities.Patience]
+                          - homework.MustAbilities[Abilities.Patience]);
+
+            int diffWorkDedication = (int)(this.HeroAbilities[Abilities.WorkDedication]
+                         - homework.MustAbilities[Abilities.WorkDedication]);
+
+            bool hasMustKnowledge = true;
+            if (homework.MustKnowledge != null)
+            {
+                hasMustKnowledge = this.HeroKnowledges.ContainsKey(homework.MustKnowledge.Value);
+            }
+
+            // Have no enough time, lose all time
+            if (diffTime < 0)
+            {
+                SCREEN_MANAGER.goto_screen("Map");
+                this.PreciousTime = 0;
+            }
+            // Have everyting enough, lose only homework.TakenTime
+            else if (diffBrainPower >= 0 && diffMotivation >= 0 && diffPatience >= 0 && diffWorkDedication >= 0 && hasMustKnowledge)
+            {
+                this.HeroKnowledges.Add(homework.WonKnowledge, 1);
+                this.PreciousTime -= homework.TakenTime;
+                TeofilaktGame.homeWorkInDuel.IsActive = false;
+            }
+            //Have enough Abilities, but no MustKnowledge, lose homework.TakenTime + takenTimeWithoutKnoledge
+            else if (diffBrainPower >= 0 && diffMotivation >= 0 && diffPatience >= 0 && diffWorkDedication >= 0 && !hasMustKnowledge)
+            {
+                this.HeroAbilities[Abilities.BrainPower] -= (uint)homework.MustAbilities[Abilities.BrainPower];
+                this.HeroAbilities[Abilities.Motivation] -= (uint)homework.MustAbilities[Abilities.Motivation];
+                this.HeroAbilities[Abilities.Patience] -= (uint)homework.MustAbilities[Abilities.Patience];
+                this.HeroAbilities[Abilities.WorkDedication] -= (uint)homework.MustAbilities[Abilities.WorkDedication];
+
+                if (this.PreciousTime >= homework.TakenTime + takenTimeWithoutKnoledge)
+                {
+                    this.PreciousTime -= homework.TakenTime + takenTimeWithoutKnoledge;
+                }
+                else
+                {
+                    this.PreciousTime = 0;
+                }
+
+                homework.IsActive = false;
+            }
+            else if ( (diffBrainPower < 0 || diffMotivation < 0 || diffPatience < 0 || diffWorkDedication < 0) && hasMustKnowledge)
+            {
+                
+            }
+
+
+
+        }
 
     }
 }
