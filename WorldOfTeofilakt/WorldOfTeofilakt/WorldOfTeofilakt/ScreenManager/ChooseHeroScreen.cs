@@ -18,13 +18,15 @@ namespace WorldOfTeofilakt
         
         //Fields
         private Color chooseTextColor = Color.Yellow;
-        private Vector2 chooseTextPosition = new Vector2(280f, 200f);
+        private Vector2 chooseTextPosition = new Vector2(280f, 280f);
 
         private PictureBox maleButton;
-        private Vector2 maleButtonPosition = new Vector2(380f, 315f);
+        private Vector2 maleButtonPosition = new Vector2(380f, 360f);
 
         private PictureBox femaleButton;
-        private Vector2 femaleButtonPosition = new Vector2(600f, 300f);
+        private Vector2 femaleButtonPosition = new Vector2(600f, 350f);
+
+        private Texture2D backgroundImage;
 
         public ChooseHeroScreen(GraphicsDevice device, TeofilaktGame game)
             : base(device, game, "ChooseHero")
@@ -33,6 +35,8 @@ namespace WorldOfTeofilakt
 
         public override bool Init()
         {
+            backgroundImage = Game.Content.Load<Texture2D>(@"Backgrounds\mainmenu");
+
             maleButton = new PictureBox(Game.Content.Load<Texture2D>(@"Characters\ninja_boy_little"), maleButtonPosition);
             femaleButton = new PictureBox(Game.Content.Load<Texture2D>(@"Characters\ninja_girl_little"), femaleButtonPosition);
             
@@ -49,6 +53,8 @@ namespace WorldOfTeofilakt
             Device.Clear(Color.LightGreen);
             
             Game.spriteBatch.Begin();
+
+            Game.spriteBatch.Draw(backgroundImage, Game.ScreenRectangle, Color.White);
 
             Game.spriteBatch.Draw(maleButton.Image, maleButton.Position, Color.White);
             Game.spriteBatch.Draw(femaleButton.Image, femaleButton.Position, Color.White);
