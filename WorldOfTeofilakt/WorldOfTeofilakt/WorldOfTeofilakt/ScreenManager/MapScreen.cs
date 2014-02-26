@@ -13,6 +13,7 @@ namespace WorldOfTeofilakt
 {
     public class MapScreen : Screen
     {
+        private Texture2D backgroundImage;
         
         public MapScreen(GraphicsDevice device, TeofilaktGame game)
             : base(device, game, "Map")
@@ -21,7 +22,8 @@ namespace WorldOfTeofilakt
 
         public override bool Init()
         {
-           
+            backgroundImage = Game.Content.Load<Texture2D>(@"Backgrounds\gamebackground");
+
             return base.Init();
         }
 
@@ -35,6 +37,8 @@ namespace WorldOfTeofilakt
             Device.Clear(Color.Coral);
 
             Game.spriteBatch.Begin();
+
+            Game.spriteBatch.Draw(backgroundImage, Game.ScreenRectangle, Color.White);
 
             foreach (var character in TeofilaktGame.activeCharacters)
             {

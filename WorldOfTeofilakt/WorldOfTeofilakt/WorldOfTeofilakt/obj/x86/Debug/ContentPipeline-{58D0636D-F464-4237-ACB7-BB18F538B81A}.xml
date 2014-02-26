@@ -253,6 +253,15 @@
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\shop.xnb</Output>
       <Time>2014-02-26T15:32:46.8933826+02:00</Time>
     </Item>
+    <Item>
+      <Source>Backgrounds\gamebackground.png</Source>
+      <Name>Backgrounds\gamebackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\gamebackground.xnb</Output>
+      <Time>2014-02-26T16:55:38.2008937+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{58D0636D-F464-4237-ACB7-BB18F538B81A}</ContentProjectGUID>
