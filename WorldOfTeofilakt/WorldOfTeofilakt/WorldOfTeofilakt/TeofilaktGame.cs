@@ -19,7 +19,14 @@ namespace WorldOfTeofilakt
     /// </summary>
     public class TeofilaktGame : Microsoft.Xna.Framework.Game
     {
+        //Screen
+        public const int screenWidth = 1024;
+        public const int screenHeight = 680;
+        public readonly Rectangle ScreenRectangle;
+
         //Main Charachters
+        public const int playerInitialPosX = 450;
+        public const int playerInitialPosY = 250;
         public static Hero player;
         public static HomeWork homeWorkInDuel;
         public static IList<Character> activeCharacters;
@@ -34,11 +41,7 @@ namespace WorldOfTeofilakt
         public MouseState PreviousMouseState { get; set; }
         public Point MousePosition { get; set; }
 
-        //Screen
-        public const int screenWidth = 1024;
-        public const int screenHeight = 680;
-        public readonly Rectangle ScreenRectangle;
-
+       
         public TeofilaktGame()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -63,12 +66,12 @@ namespace WorldOfTeofilakt
         protected override void Initialize()
         {
             
-            //Initiate global variables
+            //Initiate characters
             player = new Hero("Hero", Content.Load<Texture2D>(@"Characters\ninja_boy_little"),
-                                  new Vector2(Window.ClientBounds.Width / 2,Window.ClientBounds.Height / 2), true, 100);
+                                  new Vector2(playerInitialPosX, playerInitialPosY), true, 100);
 
             bgCoder = new Boss("BGCoder", Content.Load<Texture2D>(@"Characters\BGcoder"),
-                               new Vector2(Window.ClientBounds.Width-170, Window.ClientBounds.Height / 2), null);
+                               new Vector2(Window.ClientBounds.Width-200, Window.ClientBounds.Height / 2), null);
 
 
             activeCharacters = new List<Character>();
@@ -80,7 +83,7 @@ namespace WorldOfTeofilakt
 
 
             NonPlayerCharacter shopAbilities = new NonPlayerCharacter("Shop of Abilities", Content.Load<Texture2D>(@"Characters\shopicon"),
-                               new Vector2(5, Window.ClientBounds.Height / 2), NonPlayerCharacterTypes.Shop);
+                               new Vector2(10, 300), NonPlayerCharacterTypes.Shop);
 
             HomeWork introHW = new HomeWork("Intro HW", Content.Load<Texture2D>(@"Characters\homework1"), new Vector2(500f, 0f), 2, null, Knowledges.IKnowConsole, introHMAbilities);
             HomeWork typesAndVarHW = new HomeWork("Data types and Varaibles", Content.Load<Texture2D>(@"Characters\homework2"), new Vector2(300f, 500f), 2, Knowledges.IKnowConsole, Knowledges.IKnowTypes, introHMAbilities);
@@ -171,7 +174,7 @@ namespace WorldOfTeofilakt
 
             // TODO: Add your drawing code here
              SCREEN_MANAGER.Draw(gameTime);
-            this.IsMouseVisible = true;
+             this.IsMouseVisible = true;
            
           //  spriteBatch.Begin();
          //   base.Draw(gameTime);

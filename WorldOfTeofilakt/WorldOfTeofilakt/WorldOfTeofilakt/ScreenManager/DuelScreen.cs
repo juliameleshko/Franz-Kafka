@@ -58,8 +58,9 @@ namespace WorldOfTeofilakt
             Game.spriteBatch.Draw(backgroundImage, Game.ScreenRectangle, Color.White);
 
             //Draw
-            TeofilaktGame.player.DrawStats(Game.spriteBatch, StatFont, new Vector2(5, 0), Color.White);
-            TeofilaktGame.homeWorkInDuel.DrawStats(Game.spriteBatch, StandartFont, new Vector2(380, 150), Color.DarkTurquoise);
+            TeofilaktGame.player.DrawStats(Game.spriteBatch, StatFont, new Vector2(5, 0), Color.Black);
+            TeofilaktGame.homeWorkInDuel.DrawStats(Game.spriteBatch, StandartFont, new Vector2(380, 100), Color.DarkTurquoise);
+
             Game.spriteBatch.Draw(yesButton.Image, yesButton.Position, Color.DarkTurquoise);
             Game.spriteBatch.Draw(noButton.Image, noButton.Position, Color.DarkTurquoise);
 

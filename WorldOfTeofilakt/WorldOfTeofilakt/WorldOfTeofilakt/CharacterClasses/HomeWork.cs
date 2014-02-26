@@ -54,11 +54,15 @@ namespace WorldOfTeofilakt.CharacterClasses
 
         public void DrawStats(SpriteBatch spriteBatch, SpriteFont font, Vector2 position, Color color)
         {
-            spriteBatch.DrawString(font, this.Name, position, color);
-            position.Y += font.LineSpacing;
-            spriteBatch.DrawString(font, this.TakenTime.ToString(), position, color);
-            position.Y += font.LineSpacing;
+            int newParagraph = 30;
 
+            spriteBatch.DrawString(font,"NAME : " + this.Name, position, color);
+            position.Y += newParagraph;
+            spriteBatch.DrawString(font, "TAKEN TIME: " + this.TakenTime.ToString(), position, color);
+            position.Y += newParagraph;
+
+            spriteBatch.DrawString(font, "MUST ABILITIES: ", position, color);
+            position.Y += font.LineSpacing;
             foreach (var ability in this.MustAbilities)
             {
                 spriteBatch.DrawString(font, ability.Key.ToString() + ": ", position, color);
@@ -66,9 +70,10 @@ namespace WorldOfTeofilakt.CharacterClasses
                 position.Y += font.LineSpacing;
             }
 
-            spriteBatch.DrawString(font, this.MustKnowledge == null ? "" : this.MustKnowledge.ToString(), position, color);
             position.Y += font.LineSpacing;
-            spriteBatch.DrawString(font, this.WonKnowledge.ToString(), position, color);
+            spriteBatch.DrawString(font,"MUST KNOWLEDGE :"+ (this.MustKnowledge == null ? " No" : this.MustKnowledge.ToString()), position, color);
+            position.Y += newParagraph;
+            spriteBatch.DrawString(font,"YOU WILL WIN : " +this.WonKnowledge.ToString(), position, color);
         }
     }
 }

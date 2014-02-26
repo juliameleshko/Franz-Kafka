@@ -97,7 +97,7 @@ namespace WorldOfTeofilakt
                         SCREEN_MANAGER.goto_screen("Shop");
                     }
 
-                    TeofilaktGame.player.Position = new Vector2(TeofilaktGame.screenWidth / 2, TeofilaktGame.screenHeight / 2);
+                    TeofilaktGame.player.Position = new Vector2(TeofilaktGame.playerInitialPosX, TeofilaktGame.playerInitialPosY);
                     break;
                 }
             }

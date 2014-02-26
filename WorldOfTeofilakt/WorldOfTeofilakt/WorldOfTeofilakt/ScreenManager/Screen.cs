@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace WorldOfTeofilakt
 {
-    public class Screen
+    public abstract class Screen
     {
         //public const string Logo = "WORLD OF TEOFILAKT";
 
