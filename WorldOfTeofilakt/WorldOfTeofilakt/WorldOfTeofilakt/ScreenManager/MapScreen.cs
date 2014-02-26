@@ -80,10 +80,9 @@ namespace WorldOfTeofilakt
             foreach (var character in TeofilaktGame.activeCharacters)
             {
                 bool check = TeofilaktGame.player.CheckCollision(character);
-              
-                if (character is Enemy && check && character.IsActive)
+
+                if (check && character.IsActive)
                 {
-                    
                     if (character is HomeWork)
                     {
                         TeofilaktGame.homeWorkInDuel = (HomeWork)character;
@@ -93,19 +92,14 @@ namespace WorldOfTeofilakt
                     {
                         SCREEN_MANAGER.goto_screen("FinalDuel");
                     }
-                                    
-                    
-                    TeofilaktGame.player.Position = new Vector2(5, 300);
+                    else if (character is NonPlayerCharacter)
+                    {
+                        SCREEN_MANAGER.goto_screen("Shop");
+                    }
+
+                    TeofilaktGame.player.Position = new Vector2(TeofilaktGame.screenWidth / 2, TeofilaktGame.screenHeight / 2);
                     break;
                 }
-            }
-
-            if (Game.PreviousMouseState.LeftButton == ButtonState.Released
-                  && Game.CurrentMouseState.LeftButton == ButtonState.Pressed
-                 )
-            {
-                SCREEN_MANAGER.goto_screen("Shop");
-
             }
             base.Update(gameTime);
         }

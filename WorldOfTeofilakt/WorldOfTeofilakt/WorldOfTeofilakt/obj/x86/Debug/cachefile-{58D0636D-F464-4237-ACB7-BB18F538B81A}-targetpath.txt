@@ -35,3 +35,4 @@ Content\Characters\homework5.xnb
 Content\Characters\homework6.xnb
 Content\Backgrounds\duelscreen.xnb
 Content\Backgrounds\finalduelscreen.xnb
+Content\Characters\shopicon.xnb

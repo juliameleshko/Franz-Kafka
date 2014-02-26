@@ -334,6 +334,15 @@
       <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\finalduelscreen.xnb</Output>
       <Time>2014-02-26T20:58:09.453125+02:00</Time>
     </Item>
+    <Item>
+      <Source>Characters\shopicon.png</Source>
+      <Name>Characters\shopicon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\shopicon.xnb</Output>
+      <Time>2014-02-26T21:53:43.734375+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

@@ -112,6 +112,8 @@
     <Compile Include="CharacterClasses\Enemy.cs" />
     <Compile Include="CharacterClasses\Hero.cs" />
     <Compile Include="CharacterClasses\HomeWork.cs" />
+    <Compile Include="CharacterClasses\NonPlayerCharacter.cs" />
+    <Compile Include="CharacterClasses\NonPlayerCharacterTypes.cs" />
     <Compile Include="Controls\Control.cs" />
     <Compile Include="Controls\PictureBox.cs" />
     <Compile Include="Components\MenuComponent.cs" />

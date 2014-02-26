@@ -35,8 +35,8 @@ namespace WorldOfTeofilakt
         public Point MousePosition { get; set; }
 
         //Screen
-        const int screenWidth = 1024;
-        const int screenHeight = 680;
+        public const int screenWidth = 1024;
+        public const int screenHeight = 680;
         public readonly Rectangle ScreenRectangle;
 
         public TeofilaktGame()
@@ -78,6 +78,10 @@ namespace WorldOfTeofilakt
             introHMAbilities.Add(Abilities.Patience, 3);
             introHMAbilities.Add(Abilities.WorkDedication, 3);
 
+
+            NonPlayerCharacter shopAbilities = new NonPlayerCharacter("Shop of Abilities", Content.Load<Texture2D>(@"Characters\shopicon"),
+                               new Vector2(5, Window.ClientBounds.Height / 2), NonPlayerCharacterTypes.Shop);
+
             HomeWork introHW = new HomeWork("Intro HW", Content.Load<Texture2D>(@"Characters\homework1"), new Vector2(500f, 0f), 2, null, Knowledges.IKnowConsole, introHMAbilities);
             HomeWork typesAndVarHW = new HomeWork("Data types and Varaibles", Content.Load<Texture2D>(@"Characters\homework2"), new Vector2(300f, 500f), 2, Knowledges.IKnowConsole, Knowledges.IKnowTypes, introHMAbilities);
             HomeWork operatorsHW = new HomeWork("Operators", Content.Load<Texture2D>(@"Characters\homework3"), new Vector2(50f, 500f), 2, Knowledges.IKnowTypes, Knowledges.IKnowOperators, introHMAbilities);
@@ -92,6 +96,7 @@ namespace WorldOfTeofilakt
             activeCharacters.Add(loopsHW);
             activeCharacters.Add(classesHW);
             activeCharacters.Add(bgCoder);
+            activeCharacters.Add(shopAbilities);
 
             //Initiate screns
             SCREEN_MANAGER.add_screen(new StartMenuScreen(GraphicsDevice,this));
