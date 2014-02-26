@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using WorldOfTeofilakt.Items;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-
-namespace WorldOfTeofilakt.CharacterClasses
+﻿namespace WorldOfTeofilakt.CharacterClasses
 {
-    public class Boss : Enemy
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using System.Collections.Generic;
+    using WorldOfTeofilakt.Interfaces;
+    using WorldOfTeofilakt.Items;
+
+    public class Boss : Enemy, IBoss
     {
         private IDictionary<Knowledges, int> bossKnowledges;
 
         public Boss(string name, Texture2D image, Vector2 position, IDictionary<Knowledges, int> bossKnowledges)
-
             : base(name, image, position)
         {
             this.bossKnowledges = bossKnowledges;
@@ -22,16 +18,19 @@ namespace WorldOfTeofilakt.CharacterClasses
 
         public IDictionary<Knowledges, int> BossKnowledges
         {
-            get { return bossKnowledges; }
-            set { bossKnowledges = value; }
+            get
+            {
+                return bossKnowledges;
+            }
+            set
+            {
+                bossKnowledges = value;
+            }
         }
 
-        
         //Methods
         public void DrawStats(SpriteBatch spriteBatch, SpriteFont font, Vector2 position, Color color)
-        {
-            
-        }
+        { }
 
         public int CalculatePower()
         {
@@ -39,12 +38,10 @@ namespace WorldOfTeofilakt.CharacterClasses
 
             foreach (var knowledge in bossKnowledges)
             {
-
                 power *= knowledge.Value;
             }
 
             return power;
-
         }
     }
 }

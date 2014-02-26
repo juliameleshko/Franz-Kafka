@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using WorldOfTeofilakt.Items;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-
-namespace WorldOfTeofilakt.CharacterClasses
+﻿namespace WorldOfTeofilakt.CharacterClasses
 {
-    public class HomeWork : Enemy
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using System.Collections.Generic;
+    using WorldOfTeofilakt.Interfaces;
+    using WorldOfTeofilakt.Items;
+
+    public class HomeWork : Enemy, IHomeWork
     {
         private uint takenTime;
         private Knowledges? mustKnowledge;

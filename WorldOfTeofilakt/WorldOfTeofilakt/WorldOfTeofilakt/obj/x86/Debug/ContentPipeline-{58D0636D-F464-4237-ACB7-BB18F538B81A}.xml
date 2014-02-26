@@ -8,7 +8,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\menufont.xnb</Output>
-      <Time>2014-02-26T16:36:54.4488092+02:00</Time>
+      <Time>2014-02-26T23:29:25.850087+02:00</Time>
     </Item>
     <Item>
       <Source>Fonts\standart.spritefont</Source>
@@ -17,7 +17,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\standart.xnb</Output>
-      <Time>2014-02-26T16:36:54.4518119+02:00</Time>
+      <Time>2014-02-26T23:29:25.8530922+02:00</Time>
     </Item>
     <Item>
       <Source>Fonts\logofont.spritefont</Source>
@@ -26,7 +26,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\logofont.xnb</Output>
-      <Time>2014-02-26T16:36:54.4458069+02:00</Time>
+      <Time>2014-02-26T23:29:25.8460858+02:00</Time>
     </Item>
     <Item>
       <Source>Fonts\statfont.spritefont</Source>
@@ -35,7 +35,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\statfont.xnb</Output>
-      <Time>2014-02-26T16:36:54.4528128+02:00</Time>
+      <Time>2014-02-26T23:29:25.8570953+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\ninja.jpg</Source>
@@ -44,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja.xnb</Output>
-      <Time>2014-02-26T16:36:54.423787+02:00</Time>
+      <Time>2014-02-26T23:29:25.8180604+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\ninja2.jpg</Source>
@@ -53,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja2.xnb</Output>
-      <Time>2014-02-26T16:36:54.4247884+02:00</Time>
+      <Time>2014-02-26T23:29:25.8220636+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\ninja_female.jpg</Source>
@@ -62,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_female.xnb</Output>
-      <Time>2014-02-26T16:36:54.4257888+02:00</Time>
+      <Time>2014-02-26T23:29:25.8260677+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\ninja_female_llitle.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_female_llitle.xnb</Output>
-      <Time>2014-02-26T16:36:54.428791+02:00</Time>
+      <Time>2014-02-26T23:29:25.8270657+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\ninja_male_llitle.png</Source>
@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_male_llitle.xnb</Output>
-      <Time>2014-02-26T16:36:54.4308116+02:00</Time>
+      <Time>2014-02-26T23:29:25.8301151+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\home_work.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\home_work.xnb</Output>
-      <Time>2014-02-26T16:36:54.4207847+02:00</Time>
+      <Time>2014-02-26T23:29:25.8090836+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\boss.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\boss.xnb</Output>
-      <Time>2014-02-26T16:36:54.4187853+02:00</Time>
+      <Time>2014-02-26T23:29:25.8040492+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\cartoon-ninja.jpg</Source>
@@ -107,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\cartoon-ninja.xnb</Output>
-      <Time>2014-02-26T16:36:54.4197843+02:00</Time>
+      <Time>2014-02-26T23:29:25.8080514+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\home_work_little.png</Source>
@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\home_work_little.xnb</Output>
-      <Time>2014-02-26T16:36:54.4217847+02:00</Time>
+      <Time>2014-02-26T23:29:25.8100811+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\armor.png</Source>
@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\armor.xnb</Output>
-      <Time>2014-02-26T16:36:54.4167806+02:00</Time>
+      <Time>2014-02-26T23:29:25.8020435+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\armor_little.png</Source>
@@ -134,7 +134,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\armor_little.xnb</Output>
-      <Time>2014-02-26T16:36:54.417782+02:00</Time>
+      <Time>2014-02-26T23:29:25.8030979+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\ninja_girl_thumb.png</Source>
@@ -143,7 +143,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_girl_thumb.xnb</Output>
-      <Time>2014-02-26T16:36:54.4308116+02:00</Time>
+      <Time>2014-02-26T23:29:25.8290709+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\ninja_girl_little.png</Source>
@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_girl_little.xnb</Output>
-      <Time>2014-02-26T16:36:54.4297929+02:00</Time>
+      <Time>2014-02-26T23:29:25.82807+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\ninja_boy_little.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\ninja_boy_little.xnb</Output>
-      <Time>2014-02-26T16:36:54.4257888+02:00</Time>
+      <Time>2014-02-26T23:29:25.823065+02:00</Time>
     </Item>
     <Item>
       <Source>Controls\BrainPower.png</Source>
@@ -170,7 +170,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\BrainPower.xnb</Output>
-      <Time>2014-02-26T16:12:01.9481269+02:00</Time>
+      <Time>2014-02-26T23:29:25.8310693+02:00</Time>
     </Item>
     <Item>
       <Source>Controls\Motivation.png</Source>
@@ -179,7 +179,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Motivation.xnb</Output>
-      <Time>2014-02-26T16:13:07.1401263+02:00</Time>
+      <Time>2014-02-26T23:29:25.8360744+02:00</Time>
     </Item>
     <Item>
       <Source>Controls\Patience.png</Source>
@@ -188,7 +188,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Patience.xnb</Output>
-      <Time>2014-02-26T16:13:03.0093862+02:00</Time>
+      <Time>2014-02-26T23:29:25.839079+02:00</Time>
     </Item>
     <Item>
       <Source>Controls\WorkDedication.png</Source>
@@ -197,7 +197,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\WorkDedication.xnb</Output>
-      <Time>2014-02-26T16:12:55.1562726+02:00</Time>
+      <Time>2014-02-26T23:29:25.8410784+02:00</Time>
     </Item>
     <Item>
       <Source>Controls\GoodLuck.png</Source>
@@ -206,7 +206,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\GoodLuck.xnb</Output>
-      <Time>2014-02-26T16:13:10.5061756+02:00</Time>
+      <Time>2014-02-26T23:29:25.8350763+02:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\mainmenu.png</Source>
@@ -215,7 +215,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\mainmenu.xnb</Output>
-      <Time>2014-02-26T16:36:54.4067725+02:00</Time>
+      <Time>2014-02-26T23:29:25.77607+02:00</Time>
     </Item>
     <Item>
       <Source>Controls\Yes.png</Source>
@@ -224,7 +224,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Yes.xnb</Output>
-      <Time>2014-02-26T16:13:17.0280829+02:00</Time>
+      <Time>2014-02-26T23:29:25.8420832+02:00</Time>
     </Item>
     <Item>
       <Source>Controls\No.png</Source>
@@ -233,7 +233,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\No.xnb</Output>
-      <Time>2014-02-26T16:13:14.257573+02:00</Time>
+      <Time>2014-02-26T23:29:25.8370781+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\BGcoder.png</Source>
@@ -242,7 +242,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\BGcoder.xnb</Output>
-      <Time>2014-02-26T16:36:54.4157821+02:00</Time>
+      <Time>2014-02-26T23:29:25.8010431+02:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\shop.png</Source>
@@ -251,7 +251,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\shop.xnb</Output>
-      <Time>2014-02-26T15:32:46.8933826+02:00</Time>
+      <Time>2014-02-26T23:29:25.7990899+02:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\gamebackground.png</Source>
@@ -260,7 +260,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\gamebackground.xnb</Output>
-      <Time>2014-02-26T16:55:38.2008937+02:00</Time>
+      <Time>2014-02-26T23:29:25.7670147+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\homework1.png</Source>
@@ -269,7 +269,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework1.xnb</Output>
-      <Time>2014-02-26T17:07:52.1423137+02:00</Time>
+      <Time>2014-02-26T23:29:25.8110512+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\homework2.png</Source>
@@ -278,7 +278,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework2.xnb</Output>
-      <Time>2014-02-26T17:11:47.7933702+02:00</Time>
+      <Time>2014-02-26T23:29:25.8120805+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\homework3.png</Source>
@@ -287,7 +287,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework3.xnb</Output>
-      <Time>2014-02-26T17:12:44.8583969+02:00</Time>
+      <Time>2014-02-26T23:29:25.8130559+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\homework4.png</Source>
@@ -296,7 +296,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework4.xnb</Output>
-      <Time>2014-02-26T17:13:33.6261823+02:00</Time>
+      <Time>2014-02-26T23:29:25.8140568+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\homework5.png</Source>
@@ -305,7 +305,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework5.xnb</Output>
-      <Time>2014-02-26T17:14:10.2840536+02:00</Time>
+      <Time>2014-02-26T23:29:25.8140568+02:00</Time>
     </Item>
     <Item>
       <Source>Characters\homework6.png</Source>
@@ -314,7 +314,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework6.xnb</Output>
-      <Time>2014-02-26T17:14:39.3947217+02:00</Time>
+      <Time>2014-02-26T23:29:25.8150606+02:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\duelscreen.png</Source>
@@ -323,7 +323,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\duelscreen.xnb</Output>
-      <Time>2014-02-26T18:21:29.9879762+02:00</Time>
+      <Time>2014-02-26T23:29:25.7460038+02:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\finalduelscreen.png</Source>
@@ -332,7 +332,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\finalduelscreen.xnb</Output>
-      <Time>2014-02-26T18:23:19.7843759+02:00</Time>
+      <Time>2014-02-26T23:29:25.7600055+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\shopicon.png</Source>
+      <Name>Characters\shopicon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\shopicon.xnb</Output>
+      <Time>2014-02-26T21:52:19.0460556+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

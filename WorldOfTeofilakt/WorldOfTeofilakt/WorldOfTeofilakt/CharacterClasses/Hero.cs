@@ -1,22 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.GamerServices;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Media;
-
-
-using WorldOfTeofilakt.Interfaces;
-using WorldOfTeofilakt.Items;
-
-namespace WorldOfTeofilakt.CharacterClasses
+﻿namespace WorldOfTeofilakt.CharacterClasses
 {
-    public class Hero : Character, IMovable
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using Microsoft.Xna.Framework.Input;
+    using System.Collections.Generic;
+    using WorldOfTeofilakt.Interfaces;
+    using WorldOfTeofilakt.Items;
+
+    public class Hero : Character, IMovable, IHero
     {
         //Constants
         private const float speed = 5f;
@@ -95,26 +86,21 @@ namespace WorldOfTeofilakt.CharacterClasses
             if (keyBoardState.IsKeyDown(Keys.Up))
             {
                 this.velocity.Y = -movementSpeed.Y;
-
             }
             if (keyBoardState.IsKeyDown(Keys.Left))
             {
                 this.velocity.X = -movementSpeed.X;
-
             }
             if (keyBoardState.IsKeyDown(Keys.Down))
             {
                 this.velocity.Y = movementSpeed.Y;
-
             }
             if (keyBoardState.IsKeyDown(Keys.Right))
             {
                 this.velocity.X = movementSpeed.X;
-
             }
 
             this.Position += this.velocity;
-
         }
 
         public bool CheckCollision(Character otherCharacter)
@@ -127,13 +113,10 @@ namespace WorldOfTeofilakt.CharacterClasses
             {
                 return false;
             }
-
         }
-
 
         public void DrawStats(SpriteBatch spriteBatch, SpriteFont font, Vector2 position,Color color)
         {
-
             spriteBatch.DrawString(font, "PRECIOUS TIME: " + this.PreciousTime.ToString() + "\nABILITIES ", position, color);
             position.Y += 35;
 
@@ -225,9 +208,6 @@ namespace WorldOfTeofilakt.CharacterClasses
             {
                 
             }
-
-
-
         }
 
     }

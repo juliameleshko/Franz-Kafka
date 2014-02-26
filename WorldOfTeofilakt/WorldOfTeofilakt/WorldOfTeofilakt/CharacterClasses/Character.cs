@@ -1,18 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.GamerServices;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Media;
-
-namespace WorldOfTeofilakt.CharacterClasses
+﻿namespace WorldOfTeofilakt.CharacterClasses
 {
-    public abstract class Character
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using WorldOfTeofilakt.Interfaces;
+
+    public abstract class Character : ICharacter
     {
         //Fields
        // private Rectangle characterBounds;
@@ -25,7 +17,6 @@ namespace WorldOfTeofilakt.CharacterClasses
             this.Position = position;
             Color = Color.White;
             this.IsActive = true;
-            
         }
         
         //Properties
@@ -34,14 +25,10 @@ namespace WorldOfTeofilakt.CharacterClasses
         public Texture2D Image { get; set; }
         public Rectangle CharacterBounds
         {
-            get {
-                return new Rectangle(
-	                    (int)Position.X,
-	                    (int)Position.Y,
-                        Image.Width,
-                        Image.Height);
+            get
+            {
+                return new Rectangle((int)Position.X, (int)Position.Y, Image.Width, Image.Height);
             }
-
         }
 
         public Vector2 Position { get; set; }
@@ -52,6 +39,5 @@ namespace WorldOfTeofilakt.CharacterClasses
         {
             spriteBatch.Draw(this.Image, this.Position, this.Color);
         }
-    
     }
 }

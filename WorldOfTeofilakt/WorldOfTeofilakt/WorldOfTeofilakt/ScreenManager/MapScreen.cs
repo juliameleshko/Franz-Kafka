@@ -1,24 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Input;
-
-using WorldOfTeofilakt.CharacterClasses;
-using WorldOfTeofilakt.Items;
-
-namespace WorldOfTeofilakt
+﻿namespace WorldOfTeofilakt
 {
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using Microsoft.Xna.Framework.Input;
+    using WorldOfTeofilakt.CharacterClasses;
+
     public class MapScreen : Screen
     {
         private Texture2D backgroundImage;
         
         public MapScreen(GraphicsDevice device, TeofilaktGame game)
             : base(device, game, "Map")
-        {
-        }
+        { }
 
         public override bool Init()
         {
@@ -46,12 +39,10 @@ namespace WorldOfTeofilakt
                 {
                     character.Draw(Game.spriteBatch); 
                 }
-                
             }
 
             TeofilaktGame.player.DrawStats(Game.spriteBatch, StatFont, new Vector2(5, 0), Color.White);
             TeofilaktGame.player.Draw(Game.spriteBatch);
-
 
             Game.spriteBatch.End();
 
@@ -60,12 +51,10 @@ namespace WorldOfTeofilakt
 
         public override void Update(GameTime gameTime)
         {
-
             //Set image of player depending on gender
             if (TeofilaktGame.player.IsMale)
             {
                 TeofilaktGame.player.Image = Game.Content.Load<Texture2D>(@"Characters\ninja_boy_little");
-
             }
             else
             {

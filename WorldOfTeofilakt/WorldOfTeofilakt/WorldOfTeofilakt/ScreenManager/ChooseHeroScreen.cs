@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Input;
-
-using WorldOfTeofilakt.CharacterClasses;
-using WorldOfTeofilakt.Controls;
-
-
-namespace WorldOfTeofilakt
+﻿namespace WorldOfTeofilakt
 {
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using Microsoft.Xna.Framework.Input;
+    using WorldOfTeofilakt.Controls;
+
     public class ChooseHeroScreen : Screen
     {
         private const string chooseText = "CHOOSE GENDER OF HERO!";
@@ -30,8 +23,7 @@ namespace WorldOfTeofilakt
 
         public ChooseHeroScreen(GraphicsDevice device, TeofilaktGame game)
             : base(device, game, "ChooseHero")
-        {
-        }
+        { }
 
         public override bool Init()
         {
@@ -88,6 +80,5 @@ namespace WorldOfTeofilakt
 
             base.Update(gameTime);
         }
-
     }
 }

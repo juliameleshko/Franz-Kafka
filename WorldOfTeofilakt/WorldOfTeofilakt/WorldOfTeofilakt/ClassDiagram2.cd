@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WorldOfTeofilakt.CharacterClasses.Boss" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAQCAAAEAAAA=</HashCode>
+      <FileName>CharacterClasses\Boss.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfTeofilakt.CharacterClasses.Character" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAgEAAAAAQAAAAAABAAAABAgAAAAAA=</HashCode>
+      <FileName>CharacterClasses\Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfTeofilakt.CharacterClasses.Enemy" Collapsed="true">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CharacterClasses\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.CharacterClasses.Hero" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAiBjQCYAYQAEAAEAAA=</HashCode>
+      <FileName>CharacterClasses\Hero.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfTeofilakt.CharacterClasses.HomeWork" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAAAAAABAAAAAQAAAAAAAACAAEAAAABAACAAIAA=</HashCode>
+      <FileName>CharacterClasses\HomeWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorldOfTeofilakt.CharacterClasses.NonPlayerCharacter" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CharacterClasses\NonPlayerCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.MenuComponent" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEEIAAgAAAwQAQCAQIAgAAAAggAAABIAAAAAAAAA=</HashCode>
+      <FileName>Components\MenuComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.ChooseHeroScreen" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAEAAAgAAAAASAQAAAEACAAEAAAACAAAAAAA=</HashCode>
+      <FileName>ScreenManager\ChooseHeroScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.DuelScreen" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAghAAAAAAQAQAAAAAAEAAAACAAAAAIA=</HashCode>
+      <FileName>ScreenManager\DuelScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.FinalDuelScreen" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAghAAAAAAQAQAAAAAAEAAAACAAAAAIA=</HashCode>
+      <FileName>ScreenManager\FinalDuelScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.MapScreen" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAgAAAAAAAQAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>ScreenManager\MapScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.Screen" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQIACAAAAAAAgAAAAABAQQAAQgAAAAAAQACAAEACIA=</HashCode>
+      <FileName>ScreenManager\Screen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.SCREEN_MANAGER" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAQAAAAAAgAAAAACAEAAAAACAABAQAACAQAAgAA=</HashCode>
+      <FileName>ScreenManager\ScreenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.ShopScreen" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAMAAAghAAAAFCQAAAAAAABEAAAACAAAAAAA=</HashCode>
+      <FileName>ScreenManager\ShopScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.StartMenuScreen" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAgAAAAEAAQAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>ScreenManager\StartMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.TeofilaktGame" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAEEABACBAAwACAAAAAAAAAAAAARgBAAAAQAACAAQ=</HashCode>
+      <FileName>TeofilaktGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.TeofilaktMain" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>TeofilaktMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.Controls.Control" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAggAgAIAAIAQAAAAEAACAAAAAgAAAAAA=</HashCode>
+      <FileName>Controls\Control.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.Controls.PictureBox" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAEEAABBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\PictureBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.Engines.MapEngine" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engines\MapEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldOfTeofilakt.Maps.Map" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Maps\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="WorldOfTeofilakt.Interfaces.IBoss" Collapsed="true">
+    <Position X="14.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAACAAAEAAAA=</HashCode>
+      <FileName>Interfaces\IBoss.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfTeofilakt.Interfaces.ICharacter" Collapsed="true">
+    <Position X="16.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAgEAAAAAQAAAAAABAAAABAgAAAAAA=</HashCode>
+      <FileName>Interfaces\ICharacter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfTeofilakt.Interfaces.IHero" Collapsed="true">
+    <Position X="18" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACBjACQAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHero.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfTeofilakt.Interfaces.IHomeWork" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAQAAAAAAAACAAAAAAABAACAAAAA=</HashCode>
+      <FileName>Interfaces\IHomeWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WorldOfTeofilakt.Interfaces.IMovable" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Interfaces\IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="WorldOfTeofilakt.CharacterClasses.NonPlayerCharacterTypes" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CharacterClasses\NonPlayerCharacterTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WorldOfTeofilakt.Items.Abilities" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAAAAABAAABA=</HashCode>
+      <FileName>Items\AbilitiesEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WorldOfTeofilakt.Items.Knowledges" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAoAEIBAAAAAAAAAAAECAAAAAAAAAQAAAAAIAA=</HashCode>
+      <FileName>Items\KnowledgesEmun.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

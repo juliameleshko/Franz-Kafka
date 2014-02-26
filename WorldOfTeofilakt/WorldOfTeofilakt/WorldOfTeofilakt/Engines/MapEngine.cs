@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace WorldOfTeofilakt.Engines
+﻿namespace WorldOfTeofilakt.Engines
 {
+    using System;
+
     public class MapEngine
     {
-
-
-
-
     }
 }
