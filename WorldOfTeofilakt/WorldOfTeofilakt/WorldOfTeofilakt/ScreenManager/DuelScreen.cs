@@ -24,6 +24,8 @@ namespace WorldOfTeofilakt
         private PictureBox yesButton;
         private PictureBox noButton;
 
+        private Texture2D backgroundImage;
+
         public DuelScreen(GraphicsDevice device, TeofilaktGame game)
             : base(device, game, "Duel")
         {
@@ -32,6 +34,8 @@ namespace WorldOfTeofilakt
 
         public override bool Init()
         {
+            backgroundImage = Game.Content.Load<Texture2D>(@"Backgrounds\duelscreen");
+
             Vector2 yesButtonPos = new Vector2(400f, 200f);
             yesButton = new PictureBox(Game.Content.Load<Texture2D>(@"Controls\Yes"), yesButtonPos);
             Vector2 noButtonPos = new Vector2(600f, 200f);
@@ -50,6 +54,8 @@ namespace WorldOfTeofilakt
             Device.Clear(Color.LightGreen);
 
             Game.spriteBatch.Begin();
+
+            Game.spriteBatch.Draw(backgroundImage, Game.ScreenRectangle, Color.White);
 
             //Draw
             TeofilaktGame.player.DrawStats(Game.spriteBatch, StatFont, new Vector2(5, 0), Color.White);

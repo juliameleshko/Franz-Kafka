@@ -316,6 +316,24 @@
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework6.xnb</Output>
       <Time>2014-02-26T17:14:39.3947217+02:00</Time>
     </Item>
+    <Item>
+      <Source>Backgrounds\duelscreen.png</Source>
+      <Name>Backgrounds\duelscreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\duelscreen.xnb</Output>
+      <Time>2014-02-26T18:21:29.9879762+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\finalduelscreen.png</Source>
+      <Name>Backgrounds\finalduelscreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\finalduelscreen.xnb</Output>
+      <Time>2014-02-26T18:23:19.7843759+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{58D0636D-F464-4237-ACB7-BB18F538B81A}</ContentProjectGUID>

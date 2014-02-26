@@ -72,3 +72,5 @@ D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilak
 D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework4.xnb
 D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework5.xnb
 D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework6.xnb
+D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\duelscreen.xnb
+D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\finalduelscreen.xnb
