@@ -27,3 +27,9 @@ Content\Controls\No.xnb
 Content\Characters\BGcoder.xnb
 Content\Backgrounds\shop.xnb
 Content\Backgrounds\gamebackground.xnb
+Content\Characters\homework1.xnb
+Content\Characters\homework2.xnb
+Content\Characters\homework3.xnb
+Content\Characters\homework4.xnb
+Content\Characters\homework5.xnb
+Content\Characters\homework6.xnb

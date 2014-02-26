@@ -262,6 +262,60 @@
       <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Backgrounds\gamebackground.xnb</Output>
       <Time>2014-02-26T16:55:38.2008937+02:00</Time>
     </Item>
+    <Item>
+      <Source>Characters\homework1.png</Source>
+      <Name>Characters\homework1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework1.xnb</Output>
+      <Time>2014-02-26T17:07:52.1423137+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\homework2.png</Source>
+      <Name>Characters\homework2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework2.xnb</Output>
+      <Time>2014-02-26T17:11:47.7933702+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\homework3.png</Source>
+      <Name>Characters\homework3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework3.xnb</Output>
+      <Time>2014-02-26T17:12:44.8583969+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\homework4.png</Source>
+      <Name>Characters\homework4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework4.xnb</Output>
+      <Time>2014-02-26T17:13:33.6261823+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\homework5.png</Source>
+      <Name>Characters\homework5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework5.xnb</Output>
+      <Time>2014-02-26T17:14:10.2840536+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\homework6.png</Source>
+      <Name>Characters\homework6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Characters\homework6.xnb</Output>
+      <Time>2014-02-26T17:14:39.3947217+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{58D0636D-F464-4237-ACB7-BB18F538B81A}</ContentProjectGUID>

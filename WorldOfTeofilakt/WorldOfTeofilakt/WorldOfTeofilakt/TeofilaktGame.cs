@@ -68,7 +68,7 @@ namespace WorldOfTeofilakt
                                   new Vector2(Window.ClientBounds.Width / 2,Window.ClientBounds.Height / 2), true, 100);
 
             bgCoder = new Boss("BGCoder", Content.Load<Texture2D>(@"Characters\BGcoder"),
-                               new Vector2(Window.ClientBounds.Width-150, Window.ClientBounds.Height / 2), null);
+                               new Vector2(Window.ClientBounds.Width-170, Window.ClientBounds.Height / 2), null);
 
 
             activeCharacters = new List<Character>();
@@ -78,11 +78,19 @@ namespace WorldOfTeofilakt
             introHMAbilities.Add(Abilities.Patience, 3);
             introHMAbilities.Add(Abilities.WorkDedication, 3);
 
-            HomeWork introHW = new HomeWork("Intro HW", Content.Load<Texture2D>(@"Characters\home_work"), new Vector2(500f, 0f), 2, null, Knowledges.IKnowConsole, introHMAbilities);
-            HomeWork typesAndVarHW = new HomeWork("Data types and Varaibles", Content.Load<Texture2D>(@"Characters\home_work"), new Vector2(500f, 500f), 2, Knowledges.IKnowConsole, Knowledges.IKnowTypes, introHMAbilities);
+            HomeWork introHW = new HomeWork("Intro HW", Content.Load<Texture2D>(@"Characters\homework1"), new Vector2(500f, 0f), 2, null, Knowledges.IKnowConsole, introHMAbilities);
+            HomeWork typesAndVarHW = new HomeWork("Data types and Varaibles", Content.Load<Texture2D>(@"Characters\homework2"), new Vector2(300f, 500f), 2, Knowledges.IKnowConsole, Knowledges.IKnowTypes, introHMAbilities);
+            HomeWork operatorsHW = new HomeWork("Operators", Content.Load<Texture2D>(@"Characters\homework3"), new Vector2(50f, 500f), 2, Knowledges.IKnowTypes, Knowledges.IKnowOperators, introHMAbilities);
+            HomeWork conditionsHW = new HomeWork("Conditions", Content.Load<Texture2D>(@"Characters\homework4"), new Vector2(200f, 0f), 2, Knowledges.IKnowOperators, Knowledges.IKnowConditions, introHMAbilities);
+            HomeWork loopsHW = new HomeWork("Loops", Content.Load<Texture2D>(@"Characters\homework5"), new Vector2(750f, 30f), 2, Knowledges.IKnowConditions, Knowledges.IKnowLoops, introHMAbilities);
+            HomeWork classesHW = new HomeWork("Classes", Content.Load<Texture2D>(@"Characters\homework6"), new Vector2(600f, 500f), 2, Knowledges.IKnowLoops, Knowledges.IKnowClasses, introHMAbilities);
 
             activeCharacters.Add(introHW);
             activeCharacters.Add(typesAndVarHW);
+            activeCharacters.Add(operatorsHW);
+            activeCharacters.Add(conditionsHW);
+            activeCharacters.Add(loopsHW);
+            activeCharacters.Add(classesHW);
             activeCharacters.Add(bgCoder);
 
             //Initiate screns
