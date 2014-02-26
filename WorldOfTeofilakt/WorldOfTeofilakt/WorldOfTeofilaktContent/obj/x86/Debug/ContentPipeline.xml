@@ -217,6 +217,24 @@
       <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Fonts\statfont.xnb</Output>
       <Time>2014-02-25T16:28:51.426375+02:00</Time>
     </Item>
+    <Item>
+      <Source>Controls\Yes.png</Source>
+      <Name>Controls\Yes</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\Yes.xnb</Output>
+      <Time>2014-02-26T01:32:56.4612457+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Controls\No.png</Source>
+      <Name>Controls\No</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilakt\bin\x86\Debug\Content\Controls\No.xnb</Output>
+      <Time>2014-02-26T01:55:43.3930413+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

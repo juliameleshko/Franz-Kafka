@@ -24,10 +24,12 @@ namespace WorldOfTeofilakt.CharacterClasses
             this.Image = image;
             this.Position = position;
             Color = Color.White;
+            this.IsActive = true;
             
         }
         
         //Properties
+        public bool IsActive { get; set; }
         public string Name { get; set; }
         public Texture2D Image { get; set; }
         public Rectangle CharacterBounds

@@ -19,8 +19,10 @@ namespace WorldOfTeofilakt
     /// </summary>
     public class TeofilaktGame : Microsoft.Xna.Framework.Game
     {
-        //Hero
+        //Main Charachters
         public static Hero player;
+        public static HomeWork homeWorkInDuel;
+        public static IList<Character> activeCharacters;
         
         //XNA
         GraphicsDeviceManager graphics;
@@ -60,16 +62,29 @@ namespace WorldOfTeofilakt
         protected override void Initialize()
         {
             
-            //Initiate player
+            //Initiate global variables
             player = new Hero("Hero", Content.Load<Texture2D>(@"Characters\ninja_boy_little"),
                                   new Vector2(Window.ClientBounds.Width / 2,Window.ClientBounds.Height / 2), true, 100);
-            
+            activeCharacters = new List<Character>();
+            Dictionary<Abilities, int> introHMAbilities = new Dictionary<Abilities, int>();
+            introHMAbilities.Add(Abilities.BrainPower, 3);
+            introHMAbilities.Add(Abilities.Motivation, 3);
+            introHMAbilities.Add(Abilities.Patience, 3);
+            introHMAbilities.Add(Abilities.WorkDedication, 3);
+
+            HomeWork introHW = new HomeWork("Intro HW", Content.Load<Texture2D>(@"Characters\home_work"), new Vector2(30f, 400f), 2, null, Knowledges.IKnowConsole, introHMAbilities);
+            HomeWork typesAndVarHW = new HomeWork("Data types and Varaibles", Content.Load<Texture2D>(@"Characters\home_work"), new Vector2(600f, 600f), 2, null, Knowledges.IKnowTypes, introHMAbilities);
+
+            activeCharacters.Add(introHW);
+            activeCharacters.Add(typesAndVarHW);
+
 
             //Initiate screns
             SCREEN_MANAGER.add_screen(new StartMenuScreen(GraphicsDevice,this));
             SCREEN_MANAGER.add_screen(new ChooseHeroScreen(GraphicsDevice, this));
             SCREEN_MANAGER.add_screen(new MapScreen(GraphicsDevice, this));
             SCREEN_MANAGER.add_screen(new ShopScreen(GraphicsDevice, this));
+            SCREEN_MANAGER.add_screen(new DuelScreen(GraphicsDevice, this));
 
             SCREEN_MANAGER.goto_screen("StartMenu");
            // SCREEN_MANAGER.goto_screen("Map");
