@@ -17,7 +17,7 @@ namespace WorldOfTeofilakt
         private const string chooseText = "CHOOSE GENDER OF HERO!";
         
         //Fields
-        private Color chooseTextColor = Color.Yellow;
+        private Color chooseTextColor = Color.DarkTurquoise;
         private Vector2 chooseTextPosition = new Vector2(280f, 280f);
 
         private PictureBox maleButton;

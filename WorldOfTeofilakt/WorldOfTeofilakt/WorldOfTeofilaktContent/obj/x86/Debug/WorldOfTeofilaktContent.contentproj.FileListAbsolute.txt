@@ -1,1 +1,2 @@
 D:\Dobrin\TELERIK\03.OOP\Team-Work\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilaktContent\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Telerik\OOP\Teamwork Franz Kafka\Franz-Kafka\WorldOfTeofilakt\WorldOfTeofilakt\WorldOfTeofilaktContent\obj\x86\Debug\WorldOfTeofilaktContent.contentprojResolveAssemblyReference.cache

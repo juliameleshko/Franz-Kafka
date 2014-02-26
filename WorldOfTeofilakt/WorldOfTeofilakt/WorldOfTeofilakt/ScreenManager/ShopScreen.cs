@@ -17,14 +17,16 @@ namespace WorldOfTeofilakt
         private const string titleText = "  HERE YOU CAN BUY ABILITIES\nYour precious TIME units are: ";
 
         //Fields
-        private Color titleTextColor = Color.White;
-        private Vector2 titleTextPosition = new Vector2(200f, 50f);
+        private Color titleTextColor = Color.DarkTurquoise;
+        private Vector2 titleTextPosition = new Vector2(320f, 120f);
 
         private PictureBox brainPowerButton;
         private PictureBox motivationButton;
         private PictureBox patienceButton;
         private PictureBox workDedicationButton;
         private PictureBox goodLuckButton;
+
+        private Texture2D backgroundImage;
 
         public ShopScreen(GraphicsDevice device, TeofilaktGame game)
             : base(device, game, "Shop")
@@ -33,11 +35,13 @@ namespace WorldOfTeofilakt
 
         public override bool Init()
         {
-            Vector2 brainPowerButtonPos = new Vector2(400f, 200f);
+            backgroundImage = Game.Content.Load<Texture2D>(@"Backgrounds\shop");
+ 			
+ 			Vector2 brainPowerButtonPos = new Vector2(400f, 280f);
             Vector2 motivationButtonPos = new Vector2(brainPowerButtonPos.X, brainPowerButtonPos.Y + 70);
             Vector2 patienceButtonPos = new Vector2(brainPowerButtonPos.X, motivationButtonPos.Y + 70);
             Vector2 workDedicationButtonPos = new Vector2(brainPowerButtonPos.X, patienceButtonPos.Y + 70);
-            Vector2 goodLuckButtonButtonPos = new Vector2(brainPowerButtonPos.X, workDedicationButtonPos.Y + 100);
+            Vector2 goodLuckButtonButtonPos = new Vector2(brainPowerButtonPos.X - 350, workDedicationButtonPos.Y + 20);
 
             brainPowerButton = new PictureBox(Game.Content.Load<Texture2D>(@"Controls\BrainPower"), brainPowerButtonPos);
             motivationButton = new PictureBox(Game.Content.Load<Texture2D>(@"Controls\Motivation"), motivationButtonPos);
@@ -55,26 +59,28 @@ namespace WorldOfTeofilakt
 
         public override void Draw(GameTime gameTime)
         {
-            Device.Clear(Color.LightGreen);
+            Device.Clear(Color.Black);
 
             Game.spriteBatch.Begin();
 
+            Game.spriteBatch.Draw(backgroundImage, Game.ScreenRectangle, Color.White);
+
             //Draw buttons and title
             Game.spriteBatch.DrawString(MenuFont, titleText + TeofilaktGame.player.PreciousTime.ToString(), titleTextPosition, titleTextColor);
-           
-            Game.spriteBatch.Draw(brainPowerButton.Image, brainPowerButton.Position, Color.White);
-            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.player.HeroAbilities[Abilities.BrainPower].ToString(), new Vector2(brainPowerButton.Position.X + brainPowerButton.Image.Width + 40, brainPowerButton.Position.Y), Color.White);
-            
-            Game.spriteBatch.Draw(motivationButton.Image, motivationButton.Position, Color.White);
-            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.player.HeroAbilities[Abilities.Motivation].ToString(), new Vector2(motivationButton.Position.X + motivationButton.Image.Width + 40, motivationButton.Position.Y), Color.White);
 
-            Game.spriteBatch.Draw(patienceButton.Image, patienceButton.Position, Color.White);
-            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.player.HeroAbilities[Abilities.Patience].ToString(), new Vector2(patienceButton.Position.X + patienceButton.Image.Width + 40, patienceButton.Position.Y), Color.White);
+            Game.spriteBatch.Draw(brainPowerButton.Image, brainPowerButton.Position, Color.DarkTurquoise);
+            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.player.HeroAbilities[Abilities.BrainPower].ToString(), new Vector2(brainPowerButton.Position.X + brainPowerButton.Image.Width + 40, brainPowerButton.Position.Y), Color.DarkTurquoise);
 
-            Game.spriteBatch.Draw(workDedicationButton.Image, workDedicationButton.Position, Color.White);
-            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.player.HeroAbilities[Abilities.WorkDedication].ToString(), new Vector2(workDedicationButton.Position.X + workDedicationButton.Image.Width + 40, workDedicationButton.Position.Y), Color.White);
+            Game.spriteBatch.Draw(motivationButton.Image, motivationButton.Position, Color.DarkTurquoise);
+            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.player.HeroAbilities[Abilities.Motivation].ToString(), new Vector2(motivationButton.Position.X + motivationButton.Image.Width + 40, motivationButton.Position.Y), Color.DarkTurquoise);
 
-            Game.spriteBatch.Draw(goodLuckButton.Image, goodLuckButton.Position, Color.White);
+            Game.spriteBatch.Draw(patienceButton.Image, patienceButton.Position, Color.DarkTurquoise);
+            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.player.HeroAbilities[Abilities.Patience].ToString(), new Vector2(patienceButton.Position.X + patienceButton.Image.Width + 40, patienceButton.Position.Y), Color.DarkTurquoise);
+
+            Game.spriteBatch.Draw(workDedicationButton.Image, workDedicationButton.Position, Color.DarkTurquoise);
+            Game.spriteBatch.DrawString(MenuFont, TeofilaktGame.player.HeroAbilities[Abilities.WorkDedication].ToString(), new Vector2(workDedicationButton.Position.X + workDedicationButton.Image.Width + 40, workDedicationButton.Position.Y), Color.DarkTurquoise);
+
+            Game.spriteBatch.Draw(goodLuckButton.Image, goodLuckButton.Position, Color.DarkTurquoise);
 
             base.Draw(gameTime);
 

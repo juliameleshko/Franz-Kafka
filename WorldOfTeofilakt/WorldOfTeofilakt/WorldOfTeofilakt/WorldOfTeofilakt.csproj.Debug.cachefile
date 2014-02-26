@@ -1,6 +1,7 @@
 Content\Fonts\menufont.xnb
 Content\Fonts\standart.xnb
 Content\Fonts\logofont.xnb
+Content\Fonts\statfont.xnb
 Content\Characters\ninja.xnb
 Content\Characters\ninja2.xnb
 Content\Characters\ninja_female.xnb
@@ -21,7 +22,7 @@ Content\Controls\Patience.xnb
 Content\Controls\WorkDedication.xnb
 Content\Controls\GoodLuck.xnb
 Content\Backgrounds\mainmenu.xnb
-Content\Fonts\statfont.xnb
 Content\Controls\Yes.xnb
 Content\Controls\No.xnb
 Content\Characters\BGcoder.xnb
+Content\Backgrounds\shop.xnb
