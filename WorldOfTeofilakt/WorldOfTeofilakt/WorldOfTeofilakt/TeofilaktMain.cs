@@ -1,5 +1,3 @@
-using System;
-
 namespace WorldOfTeofilakt
 {
 #if WINDOWS || XBOX

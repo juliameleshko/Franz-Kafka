@@ -17,4 +17,8 @@
         void DrawStats(SpriteBatch spriteBatch, SpriteFont font, Vector2 position, Color color);
         void DuelWithHomeWork(HomeWork homework);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ec77d8c7d50f3bf6093a178ba0c0518b13a48b52

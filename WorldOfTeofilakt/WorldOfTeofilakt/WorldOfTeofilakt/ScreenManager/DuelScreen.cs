@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Input;
-
-using WorldOfTeofilakt.CharacterClasses;
-using WorldOfTeofilakt.Controls;
-using WorldOfTeofilakt.Items;
-
-namespace WorldOfTeofilakt
+﻿namespace WorldOfTeofilakt
 {
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using Microsoft.Xna.Framework.Input;
+    using WorldOfTeofilakt.Controls;
+
     public class DuelScreen : Screen
     {
 
@@ -28,9 +21,7 @@ namespace WorldOfTeofilakt
 
         public DuelScreen(GraphicsDevice device, TeofilaktGame game)
             : base(device, game, "Duel")
-        {
-        }
-
+        { }
 
         public override bool Init()
         {
@@ -87,16 +78,10 @@ namespace WorldOfTeofilakt
                  && Game.CurrentMouseState.LeftButton == ButtonState.Pressed
                  && noButton.SourceRectangle.Contains(Game.MousePosition))
             {
-
                 SCREEN_MANAGER.goto_screen("Map");
-
             }
-
-
 
             base.Update(gameTime);
         }
-
-
     }
 }

@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-
-namespace WorldOfTeofilakt
+﻿namespace WorldOfTeofilakt
 {
+    using Microsoft.Xna.Framework;
+    using System.Collections.Generic;
+
     /// <summary>
     /// Screen Manager
     /// Keeps a list of available screens

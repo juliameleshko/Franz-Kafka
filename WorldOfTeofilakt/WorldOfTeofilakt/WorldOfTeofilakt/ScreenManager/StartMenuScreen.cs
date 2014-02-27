@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Input;
-using WorldOfTeofilakt.Controls;
-using Microsoft.Xna.Framework.Content;
-
-namespace WorldOfTeofilakt
+﻿namespace WorldOfTeofilakt
 {
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using Microsoft.Xna.Framework.Input;
+
     class StartMenuScreen : Screen
     {
        
@@ -22,8 +16,7 @@ namespace WorldOfTeofilakt
         //Constructors
         public StartMenuScreen(GraphicsDevice device, TeofilaktGame game)
             : base(device, game, "StartMenu")
-        {
-        }
+        { }
 
         public override bool Init()
         {
@@ -35,7 +28,6 @@ namespace WorldOfTeofilakt
             Game.Components.Add(menuComponent);
 
             return base.Init();
-            
         }
 
         public override void Shutdown()
@@ -54,8 +46,6 @@ namespace WorldOfTeofilakt
 
            // Game.spriteBatch.DrawString(LogoFont, Logo, logoPosition, logoColor);
 
-            
-
             base.Draw(gameTime);
 
             Game.spriteBatch.End();
@@ -63,7 +53,6 @@ namespace WorldOfTeofilakt
 
         public override void Update(GameTime gameTime)
         {
-
             if (Keyboard.GetState().IsKeyDown(Keys.Enter))
                 {
                     if (menuComponent.SelectedIndex == 0)
@@ -76,10 +65,8 @@ namespace WorldOfTeofilakt
                     }
                 }
 
-
             base.Update(gameTime);
         }
-
     }
 }
 

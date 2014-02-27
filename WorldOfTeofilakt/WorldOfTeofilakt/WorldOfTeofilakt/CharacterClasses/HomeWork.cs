@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,16 @@ using Microsoft.Xna.Framework;
 
 namespace WorldOfTeofilakt.CharacterClasses
 {
+=======
+﻿namespace WorldOfTeofilakt.CharacterClasses
+{
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using System.Collections.Generic;
+    using WorldOfTeofilakt.Interfaces;
+    using WorldOfTeofilakt.Items;
+
+>>>>>>> ec77d8c7d50f3bf6093a178ba0c0518b13a48b52
     public class HomeWork : Enemy, IHomeWork
     {
         private uint takenTime;

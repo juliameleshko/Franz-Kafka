@@ -1,19 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.GamerServices;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Media;
-
-using WorldOfTeofilakt.CharacterClasses;
-using WorldOfTeofilakt.Items;
-
 namespace WorldOfTeofilakt
 {
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using Microsoft.Xna.Framework.Input;
+    using System.Collections.Generic;
+    using WorldOfTeofilakt.CharacterClasses;
+    using WorldOfTeofilakt.Items;
+
     /// <summary>
     /// This is the main type for your game
     /// </summary>
@@ -41,7 +34,6 @@ namespace WorldOfTeofilakt
         public MouseState PreviousMouseState { get; set; }
         public Point MousePosition { get; set; }
 
-       
         public TeofilaktGame()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -73,14 +65,12 @@ namespace WorldOfTeofilakt
             bgCoder = new Boss("BGCoder", Content.Load<Texture2D>(@"Characters\BGcoder"),
                                new Vector2(Window.ClientBounds.Width-200, Window.ClientBounds.Height / 2), null);
 
-
             activeCharacters = new List<Character>();
             Dictionary<Abilities, int> introHMAbilities = new Dictionary<Abilities, int>();
             introHMAbilities.Add(Abilities.BrainPower, 3);
             introHMAbilities.Add(Abilities.Motivation, 3);
             introHMAbilities.Add(Abilities.Patience, 3);
             introHMAbilities.Add(Abilities.WorkDedication, 3);
-
 
             NonPlayerCharacter shopAbilities = new NonPlayerCharacter("Shop of Abilities", Content.Load<Texture2D>(@"Characters\shopicon"),
                                new Vector2(10, 300), NonPlayerCharacterTypes.Shop);
@@ -111,7 +101,6 @@ namespace WorldOfTeofilakt
 
             SCREEN_MANAGER.goto_screen("StartMenu");
            // SCREEN_MANAGER.goto_screen("Map");
-
 
             base.Initialize();
         }
@@ -149,7 +138,6 @@ namespace WorldOfTeofilakt
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-
             PreviousMouseState = CurrentMouseState;
             CurrentMouseState = Mouse.GetState();
             MousePosition = new Point(CurrentMouseState.X, CurrentMouseState.Y);

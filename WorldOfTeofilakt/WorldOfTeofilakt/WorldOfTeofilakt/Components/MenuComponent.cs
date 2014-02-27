@@ -1,17 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.GamerServices;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Media;
-
-
 namespace WorldOfTeofilakt
 {
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using Microsoft.Xna.Framework.Input;
+
     /// <summary>
     /// This is a game component that implements IUpdateable.
     /// </summary>
@@ -41,9 +33,7 @@ namespace WorldOfTeofilakt
                 if (selectedIndex >= menuItems.Length)
                     selectedIndex = menuItems.Length - 1;
             }
-
         }
-
 
         public MenuComponent(Game game, SpriteBatch spriteBatch, SpriteFont spriteFont, string[] menuItems)
             : base(game)
@@ -58,17 +48,24 @@ namespace WorldOfTeofilakt
         {
             height = 0;
             width = 0;
+
             foreach (string item in menuItems)
             {
                 Vector2 size = spriteFont.MeasureString(item);
+
                 if (size.X > width)
+                {
                     width = size.X;
+                }
+
                 height += spriteFont.LineSpacing + 5;
             }
+
             position = new Vector2(
             (Game.Window.ClientBounds.Width - width) / 2,
             (Game.Window.ClientBounds.Height - height) / 2);
         }
+
         /// <summary>
         /// Allows the game component to perform any initialization it needs to before starting
         /// to run.  This is where it can query for any required services and load content.
@@ -76,7 +73,6 @@ namespace WorldOfTeofilakt
         public override void Initialize()
         {
             // TODO: Add your initialization code here
-
             base.Initialize();
         }
 
@@ -97,15 +93,21 @@ namespace WorldOfTeofilakt
             {
                 selectedIndex++;
                 if (selectedIndex == menuItems.Length)
+                {
                     selectedIndex = 0;
+                }
             }
+
             if (CheckKey(Keys.Up))
             {
 
                 selectedIndex--;
                 if (selectedIndex < 0)
+                {
                     selectedIndex = menuItems.Length - 1;
+                }
             }
+
             base.Update(gameTime);
             oldKeyboardState = keyboardState;
         }
@@ -115,12 +117,18 @@ namespace WorldOfTeofilakt
             base.Draw(gameTime);
             Vector2 location = position;
             Color tint;
+
             for (int i = 0; i < menuItems.Length; i++)
             {
                 if (i == selectedIndex)
+                {
                     tint = hilite;
+                }
                 else
+                {
                     tint = normal;
+                }
+
                 spriteBatch.DrawString(spriteFont,menuItems[i],location,tint);
                 location.Y += spriteFont.LineSpacing + 5;
             }

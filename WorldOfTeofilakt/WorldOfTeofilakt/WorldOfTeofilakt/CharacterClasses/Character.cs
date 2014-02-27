@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,14 @@ using WorldOfTeofilakt.Interfaces;
 
 namespace WorldOfTeofilakt.CharacterClasses
 {
+=======
+﻿namespace WorldOfTeofilakt.CharacterClasses
+{
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using WorldOfTeofilakt.Interfaces;
+
+>>>>>>> ec77d8c7d50f3bf6093a178ba0c0518b13a48b52
     public abstract class Character : ICharacter
     {
         //Fields
@@ -27,7 +36,6 @@ namespace WorldOfTeofilakt.CharacterClasses
             this.Position = position;
             Color = Color.White;
             this.IsActive = true;
-            
         }
         
         //Properties
@@ -36,14 +44,10 @@ namespace WorldOfTeofilakt.CharacterClasses
         public Texture2D Image { get; set; }
         public Rectangle CharacterBounds
         {
-            get {
-                return new Rectangle(
-	                    (int)Position.X,
-	                    (int)Position.Y,
-                        Image.Width,
-                        Image.Height);
+            get
+            {
+                return new Rectangle((int)Position.X, (int)Position.Y, Image.Width, Image.Height);
             }
-
         }
 
         public Vector2 Position { get; set; }
@@ -54,6 +58,5 @@ namespace WorldOfTeofilakt.CharacterClasses
         {
             spriteBatch.Draw(this.Image, this.Position, this.Color);
         }
-    
     }
 }

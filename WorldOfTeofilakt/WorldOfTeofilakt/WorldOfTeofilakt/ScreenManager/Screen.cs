@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-
-namespace WorldOfTeofilakt
+﻿namespace WorldOfTeofilakt
 {
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+
     public abstract class Screen
     {
         //public const string Logo = "WORLD OF TEOFILAKT";
@@ -35,6 +31,7 @@ namespace WorldOfTeofilakt
         protected GraphicsDevice Device { get; set; }
         protected TeofilaktGame Game { get; set; }
         protected SpriteFont sfStandart { get; set; }
+
         protected SpriteFont MenuFont
         {
             get { return menuFont; }
@@ -87,15 +84,9 @@ namespace WorldOfTeofilakt
         /// </summary>
         /// <param name="elapsed">GameTime</param>
         public virtual void Update(GameTime gameTime) 
-        {
-
-        }
+        { }
 
         public virtual void Draw(GameTime gameTime)
-        {
-
-        }
-
+        { }
     }
-
 }
