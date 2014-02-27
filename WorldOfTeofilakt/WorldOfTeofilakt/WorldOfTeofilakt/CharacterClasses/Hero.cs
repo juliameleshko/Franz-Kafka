@@ -16,7 +16,7 @@ using WorldOfTeofilakt.Items;
 
 namespace WorldOfTeofilakt.CharacterClasses
 {
-    public class Hero : Character, IMovable
+    public class Hero : Character, IMovable, IHero
     {
         //Constants
         private const float speed = 5f;

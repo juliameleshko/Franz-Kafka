@@ -118,6 +118,10 @@
     <Compile Include="Controls\PictureBox.cs" />
     <Compile Include="Components\MenuComponent.cs" />
     <Compile Include="Engines\MapEngine.cs" />
+    <Compile Include="Interfaces\IBoss.cs" />
+    <Compile Include="Interfaces\ICharacter.cs" />
+    <Compile Include="Interfaces\IHero.cs" />
+    <Compile Include="Interfaces\IHomeWork.cs" />
     <Compile Include="Interfaces\IMovable.cs" />
     <Compile Include="Items\AbilitiesEnum.cs" />
     <Compile Include="Items\KnowledgesEmun.cs" />

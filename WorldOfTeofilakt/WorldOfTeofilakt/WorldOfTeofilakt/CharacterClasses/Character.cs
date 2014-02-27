@@ -10,9 +10,11 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
+using WorldOfTeofilakt.Interfaces;
+
 namespace WorldOfTeofilakt.CharacterClasses
 {
-    public abstract class Character
+    public abstract class Character : ICharacter
     {
         //Fields
        // private Rectangle characterBounds;

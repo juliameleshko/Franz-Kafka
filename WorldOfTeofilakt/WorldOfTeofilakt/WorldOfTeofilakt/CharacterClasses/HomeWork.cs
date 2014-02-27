@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 
 using WorldOfTeofilakt.Items;
+using WorldOfTeofilakt.Interfaces;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
 namespace WorldOfTeofilakt.CharacterClasses
 {
-    public class HomeWork : Enemy
+    public class HomeWork : Enemy, IHomeWork
     {
         private uint takenTime;
         private Knowledges? mustKnowledge;

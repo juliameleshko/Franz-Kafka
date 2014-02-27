@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 
 using WorldOfTeofilakt.Items;
+using WorldOfTeofilakt.Interfaces;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
 namespace WorldOfTeofilakt.CharacterClasses
 {
-    public class Boss : Enemy
+    public class Boss : Enemy, IBoss
     {
         private IDictionary<Knowledges, int> bossKnowledges;
 
